@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        
+            Public Key
+                
+    </title>
+    <meta name="description" content="A cryptographic key that can be distributed widely and is used to encrypt data or verify digital signatures.">
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+    IAM Terminology Essentials - Your Authentication Solution
+</title>
+<link rel="icon" type="image/x-icon" href="https://supertokens.com/favicon.ico">
+
+    
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@500;600;700&display=swap"
+            rel="stylesheet">
+        
+            
+                <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.gracker.ai/style.min.css">
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+                <!-- and it's easy to individually load additional languages -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
+                <script>hljs.highlightAll();</script>
+
+                <style>
+                    :root {
+                        --primary-color: #ff5733;
+                        --secondary-color: #33c3ff;
+                        --background-color: #ffffff;
+                        --text-color: #333333;
+                        --accent-color: #e91e63;
+                        --font-primary: Roboto, Arial, sans-serif;
+                        --font-secondary: Lato, Arial, sans-serif;
+                    }
+                </style>
+</head>
+
+<body>
+    <header class="header group" id="main-header">
+    <div class="navigation">
+        <div class="header-item item-left">
+            <div class="logo"><a href="https://supertokens.com/"><img src="https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&amp;w=256&amp;q=75" 
+                onerror="this.onerror=null; this.src='https://cdn.gracker.ai/logo-placeholder-image.png'" 
+                alt="Primary Image"  height="40" /></a></div>
+        </div>
+
+        <div class="header-item item-center">
+            <div class="menu-overlay"></div>
+            <nav class="menu">
+                <div class="mobile-menu-head">
+                    <div class="go-back">
+                        &lt;
+                    </div>
+                    <div class="current-menu-title"></div>
+                    <div class="mobile-menu-close">&times;</div>
+                </div>
+                <ul class="menu-main">
+                    <li>
+                        <a href="https://supertokens.com/">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://supertokens.com/get-started" class="btn btn-primary show-in-mobile demo-btn">
+                            Get Started
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-item item-right nav-right">
+            <a href="https://supertokens.com/get-started" class="btn btn-ghost dark hide-in-mobile">
+                Get Started
+            </a>
+            <div class="mobile-menu-trigger">
+                <span></span>
+            </div>
+        </div>
+
+
+
+    </div>
+</header>
+        <main class="homeMainInner">
+            <section class="hero">
+                <div>
+                    <ul class="breadcrumb">
+                        <li><a href="/">Home</a></li>
+                        <li class="seprator">/</li>
+                
+                        
+                
+                        <li>Public Key</li>
+                    </ul>
+                    <div class="title header">
+                        <h1>Public Key</h1>
+                    </div>
+                    <p>November 29, 2024</p>
+                </div>
+            </section>
+            <section class="category-section page-content">
+                <div class="content has-space">
+                    <p>
+                        A cryptographic key that can be distributed widely and is used to encrypt data or verify digital signatures.
+                    </p>
+                    
+                        <h2>Description</h2>
+
+                            
+                        <p>In the context of Identity and Access Management (IAM), a public key is part of a public-private key pair used in asymmetric encryption systems. It is used to encrypt data or verify signatures, ensuring secure transactions and communications over networks. The public key can be freely shared and distributed, while the corresponding private key must be kept secure and confidential by the owner. When someone wants to send encrypted data to the owner, they use the owner&#39;s public key to encrypt the information. Only the corresponding private key can then decrypt this data, ensuring that only the intended recipient can read it. Similarly, when the owner signs a document with their private key, others can use the public key to verify the signature&#39;s authenticity, confirming the document&#39;s origin and integrity. This mechanism is widely used in secure communications, digital certificates, and blockchain technologies to provide authentication and data integrity.</p>
+
+                            
+                        <h2>Examples</h2>
+
+                            
+                        <ul>
+<li>Using a public key to encrypt an email so only the intended recipient can decrypt and read it.</li>
+<li>Verifying a digital signature on a document using the signer&#39;s public key to ensure authenticity.</li>
+</ul>
+
+                            
+                        <h2>Additional Information</h2>
+
+                            
+                        <ul>
+<li>Public keys are often distributed through certificates issued by trusted Certificate Authorities (CAs).</li>
+<li>The security of public key systems relies heavily on the complexity of the mathematical problems underlying the encryption algorithms, such as factorization for RSA or the discrete logarithm problem for ECC.</li>
+</ul>
+
+                            
+                        <h2>References</h2>
+
+                            
+                        <ul>
+<li><a href="https://medium.com/coinmonks/private-and-public-key-cryptography-explained-simply-4c374d371736">A Beginner’s Guide: Private and Public Key Cryptography Deciphered</a></li>
+<li><a href="https://www.geeksforgeeks.org/difference-between-private-key-and-public-key/">Difference between Private key and Public key</a></li>
+<li><a href="https://en.wikibooks.org/wiki/Cryptography/Public_Key_Overview">Cryptography/Public Key Overview - Wikibooks, open books for an open world</a></li>
+<li><a href="https://www.sectigo.com/resource-library/public-key-vs-private-key">Public Key Cryptography: Private vs Public</a></li>
+<li><a href="https://bitcoinist.com/explaining-public-key-cryptography/">Explaining Public-Key Cryptography | Bitcoinist.com</a></li>
+<li><a href="https://nakamoto.com/public-key-cryptography/">Public-Key Cryptography</a></li>
+<li><a href="https://aspencrypt.com/crypto101_public.html">AspEncrypt.com -- Crypto 101: Public-Key Cryptography</a></li>
+<li><a href="https://simple.wikipedia.org/wiki/Public-key_cryptography">Public-key cryptography</a></li>
+<li><a href="https://www.digitalguardian.com/blog/what-public-key-cryptography">What is Public Key Cryptography? (And How it Works)</a></li>
+<li><a href="https://www.globalsign.com/en-in/ssl-information-center/what-is-public-key-cryptography">What is Public-key Cryptography? :: GlobalSign</a></li>
+<li><a href="https://www.youtube.com/watch?t=243&v=GSIDS_lvRv4&feature=youtu.be">Public Key Cryptography - Computerphile</a></li>
+<li><a href="https://www.businessinsider.com/how-public-key-cryptography-works-2013-8">An Incredibly Simple Explanation Of How Public-Key Cryptography Works</a></li>
+<li><a href="https://medium.com/@vrypan/explaining-public-key-cryptography-to-non-geeks-f0994b3c2d5">Explaining public-key cryptography to non-geeks</a></li>
+<li><a href="https://www.cloudflare.com/learning/ssl/how-does-public-key-encryption-work/">How does public key cryptography work? | Public key encryption and SSL</a></li>
+<li><a href="https://www.iusmentis.com/technology/encryption/crashcourse/publickeycrypto/">Crash course on cryptography: Public key cryptography (in Technology &gt; Encryption</a></li>
+<li><a href="https://www.theatlantic.com/magazine/archive/2002/09/a-primer-on-public-key-encryption/302574/">A Primer on Public-key Encryption</a></li>
+<li><a href="https://blog.wetrust.io/why-do-i-need-a-public-and-private-key-on-the-blockchain-c2ea74a69e76?gi=432c216fca96">Why Do I Need a Public and Private Key on the Blockchain?</a></li>
+<li><a href="https://www.tutorialspoint.com/difference-between-private-key-and-public-key">Difference between Private Key and Public Key</a></li>
+<li><a href="https://www.coindesk.com/learn/a-crypto-must-know-public-vs-private-keys/">A Crypto Must-Know: Public vs. Private Keys</a></li>
+<li><a href="https://pet3rpan.medium.com/explain-to-me-what-is-public-key-cryptography-f1bf4a1d96a9">Explain public key cryptography to me… - Peter ‘pet3rpan’ - Medium</a></li>
+<li><a href="https://medium.com/coinmonks/a-laymans-explanation-of-public-key-cryptography-and-digital-signatures-1090d4bd072e">Public Key Cryptography and Digital Signatures - Coinmonks - Medium</a></li>
+<li><a href="https://www.tutorialspoint.com/cryptography/public_key_encryption.htm">Public Key Encryption</a></li>
+<li><a href="https://medium.com/arts-crypto/what-is-public-key-f7bdbc43b130">What is Public Key? - Arts &amp; Crypto - Medium</a></li>
+<li><a href="https://confluence.columbia.edu/confluence/display/SSE/Public+Key+Cryptography+Primer">Public Key Cryptography Primer</a></li>
+<li><a href="http://www.mycrypto.net/encryption/encryption_public.html">Primer on Public Key Encryption</a></li>
+</ul>
+
+                            
+                </div>
+            </section>
+
+            
+
+
+        </main>
+        <script>
+            // Get all h2 elements
+            const h2Elements = document.querySelectorAll('h2');
+
+            // Loop through the h2 elements and find the one with the text 'References'
+            h2Elements.forEach(h2 => {
+                if (h2.textContent.trim() === 'References') {
+                    // Get the next sibling element, which should be the ul
+                    const nextElement = h2.nextElementSibling;
+
+                    // Check if the next element is a ul
+                    if (nextElement && nextElement.tagName === 'UL') {
+                        // Get all anchor tags inside the ul and add target="_blank"
+                        const anchorTags = nextElement.querySelectorAll('a');
+                        anchorTags.forEach(anchor => {
+                            anchor.setAttribute('target', '_blank');
+                        });
+                    }
+                }
+            });
+        </script>
+        <footer>
+    <div>
+        <div class="left-block">
+            <div class="logo">
+                <a href="https://supertokens.com/">
+                  <img src="https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&amp;w=256&amp;q=75" 
+                       onerror="this.onerror=null; this.src='https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png'" 
+                       alt="Primary Image" 
+                       height="40" />
+                </a>
+              </div>
+            <div class="copyright">
+                © 2023 SuperTokens. All rights reserved.
+            </div>
+        </div>
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <ul>
+                    
+                        
+                            <li>
+                                <a href="https://github.com/supertokens/supertokens-core" target="_blank" rel="noopener noreferrer">
+                                    GitHub
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.ycombinator.com/companies/supertokens" target="_blank" rel="noopener noreferrer">
+                                    Y Combinator
+                                </a>
+                            </li>
+                            
+                                
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+<script>
+    let scrollpos = window.scrollY;
+    const header = document.querySelector("header");
+    const navItems = document.querySelectorAll("nav .menu-item-has-children>a"); // Adjust the selector based on your menu items
+    const navSubItems = document.querySelectorAll("nav .menu-item-has-children .sub-menu.mega-menu"); // Adjust the selector based on your menu items
+
+    const add_class_on_scroll = () => header.classList.add("scroll");
+    const remove_class_on_scroll = () => header.classList.remove("scroll");
+
+    const add_class_on_hover = () => header.classList.add("hover");
+    const remove_class_on_hover = () => header.classList.remove("hover");
+
+    const check_scroll_position = () => {
+        scrollpos = window.scrollY;
+        if (scrollpos >= 80) {
+            add_class_on_scroll();
+        } else {
+            remove_class_on_scroll();
+        }
+    };
+
+    // Add or remove class based on scroll position
+    window.addEventListener("scroll", check_scroll_position);
+
+    // Add class on hover
+    navItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    // navItems.forEach((item) => {
+    // 	item.addEventListener("click", add_class_on_hover);
+    // });
+
+    // Add class on hover
+    navSubItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    navSubItems.forEach((item) => {
+        item.addEventListener("click", add_class_on_hover);
+    });
+    // Initial check when the page loads
+    document.addEventListener("DOMContentLoaded", check_scroll_position);
+    window.addEventListener("scroll", check_scroll_position);
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const dropdownButton = document.getElementById("dropdown-button");
+
+        if (dropdownButton) {
+            dropdownButton.addEventListener("click", () => {
+                document.body.classList.toggle("dropdown-open");
+            });
+        }
+    });
+
+    const menu = document.querySelector(".menu");
+    const menuMain = menu.querySelector(".menu-main");
+    const goBack = menu.querySelector(".go-back");
+    const menuTrigger = document.querySelector(".mobile-menu-trigger");
+    const closeMenu = menu.querySelector(".mobile-menu-close");
+    let subMenu;
+    menuMain.addEventListener("click", (e) => {
+        if (!menu.classList.contains("active")) {
+            return;
+        }
+        if (e.target.closest(".menu-item-has-children")) {
+            const hasChildren = e.target.closest(".menu-item-has-children");
+            showSubMenu(hasChildren);
+        }
+    });
+    goBack.addEventListener("click", () => {
+        hideSubMenu();
+    });
+    menuTrigger.addEventListener("click", () => {
+        toggleMenu();
+    });
+    closeMenu.addEventListener("click", () => {
+        toggleMenu();
+    });
+    document.querySelector(".menu-overlay").addEventListener("click", () => {
+        toggleMenu();
+    });
+    function toggleMenu() {
+        menu.classList.toggle("active");
+        document.querySelector(".menu-overlay").classList.toggle("active");
+    }
+    function showSubMenu(hasChildren) {
+        subMenu = hasChildren.querySelector(".sub-menu");
+        subMenu.classList.add("active");
+        subMenu.style.animation = "slideLeft 0.5s ease forwards";
+        const menuTitle =
+            hasChildren.querySelector(".chevronDown").parentNode.childNodes[0].textContent;
+        menu.querySelector(".current-menu-title").innerHTML = menuTitle;
+        menu.querySelector(".mobile-menu-head").classList.add("active");
+    }
+
+    function hideSubMenu() {
+        subMenu.style.animation = "slideRight 0.5s ease forwards";
+        setTimeout(() => {
+            subMenu.classList.remove("active");
+        }, 300);
+        menu.querySelector(".current-menu-title").innerHTML = "";
+        menu.querySelector(".mobile-menu-head").classList.remove("active");
+    }
+
+    window.onresize = function () {
+        if (this.innerWidth > 991) {
+            if (menu.classList.contains("active")) {
+                toggleMenu();
+            }
+        }
+    };
+
+</script>
+
+<script defer>
+    function updateLogoWidth() {
+        // Select elements
+        const ctaElement = document.querySelector('.item-right');
+        const logoElement = document.querySelector('.item-left');
+
+        // Get the computed width of CTA
+        const ctaWidth = ctaElement.getBoundingClientRect().width;
+    
+
+        // Apply the width to logo element
+        if (ctaWidth > 0) {
+            logoElement.style.width = `${ctaWidth}px`;
+        }
+    }
+
+    // Run on page load with a slight delay to ensure styles are applied
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(updateLogoWidth, 100);
+    });
+
+    // Run whenever window is resized
+    window.addEventListener('resize', updateLogoWidth);
+</script>
+</body>
+
+</html>

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        
+            Conditional Access
+                
+    </title>
+    <meta name="description" content="A security mechanism to control access based on specific conditions.">
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+    IAM Terminology Essentials - Your Authentication Solution
+</title>
+<link rel="icon" type="image/x-icon" href="https://supertokens.com/favicon.ico">
+
+    
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@500;600;700&display=swap"
+            rel="stylesheet">
+        
+            
+                <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.gracker.ai/style.min.css">
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+                <!-- and it's easy to individually load additional languages -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
+                <script>hljs.highlightAll();</script>
+
+                <style>
+                    :root {
+                        --primary-color: #ff5733;
+                        --secondary-color: #33c3ff;
+                        --background-color: #ffffff;
+                        --text-color: #333333;
+                        --accent-color: #e91e63;
+                        --font-primary: Roboto, Arial, sans-serif;
+                        --font-secondary: Lato, Arial, sans-serif;
+                    }
+                </style>
+</head>
+
+<body>
+    <header class="header group" id="main-header">
+    <div class="navigation">
+        <div class="header-item item-left">
+            <div class="logo"><a href="https://supertokens.com/"><img src="https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&amp;w=256&amp;q=75" 
+                onerror="this.onerror=null; this.src='https://cdn.gracker.ai/logo-placeholder-image.png'" 
+                alt="Primary Image"  height="40" /></a></div>
+        </div>
+
+        <div class="header-item item-center">
+            <div class="menu-overlay"></div>
+            <nav class="menu">
+                <div class="mobile-menu-head">
+                    <div class="go-back">
+                        &lt;
+                    </div>
+                    <div class="current-menu-title"></div>
+                    <div class="mobile-menu-close">&times;</div>
+                </div>
+                <ul class="menu-main">
+                    <li>
+                        <a href="https://supertokens.com/">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://supertokens.com/get-started" class="btn btn-primary show-in-mobile demo-btn">
+                            Get Started
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-item item-right nav-right">
+            <a href="https://supertokens.com/get-started" class="btn btn-ghost dark hide-in-mobile">
+                Get Started
+            </a>
+            <div class="mobile-menu-trigger">
+                <span></span>
+            </div>
+        </div>
+
+
+
+    </div>
+</header>
+        <main class="homeMainInner">
+            <section class="hero">
+                <div>
+                    <ul class="breadcrumb">
+                        <li><a href="/">Home</a></li>
+                        <li class="seprator">/</li>
+                
+                        
+                
+                        <li>Conditional Access</li>
+                    </ul>
+                    <div class="title header">
+                        <h1>Conditional Access</h1>
+                    </div>
+                    <p>November 29, 2024</p>
+                </div>
+            </section>
+            <section class="category-section page-content">
+                <div class="content has-space">
+                    <p>
+                        A security mechanism to control access based on specific conditions.
+                    </p>
+                    
+                        <h2>Description</h2>
+
+                            
+                        <p>Conditional Access is a key capability in identity and access management (IAM) that enhances security by enforcing access controls based on certain conditions. It allows organizations to define policies that evaluate factors such as user location, device health, application context, and risk level before granting access to resources. By applying these conditions, Conditional Access helps ensure that only authorized users can access sensitive data and applications, under specific circumstances. This approach not only strengthens security but also supports compliance with regulatory requirements by enforcing policies that align with organizational security strategies. Conditional Access can dynamically adjust access permissions based on real-time risk assessments, providing a balance between security and user productivity. It is commonly used in cloud environments, where traditional security perimeters are less effective, allowing for a more granular and adaptive security model.</p>
+
+                            
+                        <h2>Examples</h2>
+
+                            
+                        <ul>
+<li>A company uses Conditional Access to allow access to its corporate network only from devices that are compliant with its security policy.</li>
+<li>An organization restricts access to its financial application to only users who are located within the headquarters&#39; network and during business hours.</li>
+</ul>
+
+                            
+                        <h2>Additional Information</h2>
+
+                            
+                        <ul>
+<li>Conditional Access is often a feature of cloud-based IAM solutions like Microsoft Azure Active Directory.</li>
+<li>It can be combined with multi-factor authentication to provide an additional security layer when certain conditions are met.</li>
+</ul>
+
+                            
+                        <h2>References</h2>
+
+                            
+                        <ul>
+<li><a href="https://www.youtube.com/watch?v=offk-KH7eIA">How Microsoft uses Conditional Access - Endpoint Zone 1812</a></li>
+<li><a href="https://jkindon.com/2018/08/12/azure-mfa-vs-conditional-access">Redirecting…</a></li>
+<li><a href="https://www.inthecloud247.com/azure-ad-conditional-access-explained-android-and-ios/">Azure AD Conditional Access explained – Android and iOS | Peter Klapwijk - In The Cloud 24-7</a></li>
+<li><a href="https://bloggerz.cloud/2019/03/06/techdays-2019-protecting-user-identity-with-azure-ad-conditional-access/">Techdays 2019 - Protecting User Identity with Azure AD Conditional Access</a></li>
+<li><a href="https://www.inthecloud247.com/azure-ad-conditional-access-explained-windows-and-macos/">Azure AD Conditional Access explained – Windows and macOS</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policies">Building a Conditional Access policy - Azure Active Directory - Microsoft Entra</a></li>
+<li><a href="https://theitbros.com/conditional-access-office-365/">How to Set Up Conditional Access in Azure AD (Office 365)? – TheITBros</a></li>
+<li><a href="https://www.itpromentor.com/conditional-access-misadventures">(Mis)Adventures with Conditional Access in Azure Active Directory Premium (P1) - ITProMentor</a></li>
+<li><a href="https://learn.microsoft.com/en-us/mem/intune/protect/conditional-access-intune-common-ways-use">Scenarios for using Conditional Access with Microsoft Intune - Microsoft Intune</a></li>
+<li><a href="https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Ftechcommunity.microsoft.com%2Ft5%2Fitops-talk-blog%2Fdeep-dive-how-does-conditional-access-block-legacy%2Fba-p%2F3265345%3FWT.mc_id%3Dmodinfra-57411-socuff&urlhash=4PNZ&trk=public_post-content_share-article">External Redirection | LinkedIn</a></li>
+<li><a href="https://www.youtube.com/watch?v=OOgdRuxVfDg&feature=youtu.be">Conditional Access to Email Demo – Microsoft Intune</a></li>
+<li><a href="https://www.cio.com/article/234980/conditional-access-explained.html">Conditional Access Explained</a></li>
+<li><a href="https://www.vansurksum.com/2020/11/18/conditional-access-demystified-my-recommended-default-set-of-policies/">Conditional Access demystified: My recommended default set of policies - Modern Workplace Blog</a></li>
+<li><a href="https://learn.microsoft.com/en-us/archive/blogs/cbernier/azure-active-directory-o365-conditional-access-scenarios-explained">Azure Active Directory + O365 Conditional Access Scenarios Explained</a></li>
+<li><a href="https://www.inthecloud247.com/force-outlook-on-ios-and-android/">Force Outlook on iOS and Android to access the Exchange Online mailbox</a></li>
+<li><a href="https://practical365.com/azure-active-directory-conditional-access-enforce-multi-factor-authentication/">How to Use Azure Active Directory Conditional Access to Enforce Multi-Factor Authentication for Unmanaged Devices</a></li>
+<li><a href="https://learn.microsoft.com/en-us/mem/intune/fundamentals/migration-guide-drive-adoption">Drive end-user adoption with Conditional Access - Microsoft Intune</a></li>
+<li><a href="https://4sysops.com/archives/restricting-registration-to-azure-ad-mfa-from-trusted-locations-with-conditional-access-policy/">Restricting registration to Azure AD MFA from trusted locations with Conditional Access policy</a></li>
+<li><a href="https://learn.microsoft.com/bs-latn-ba/azure/active-directory/conditional-access/overview">What is Conditional Access in Azure Active Directory? - Microsoft Entra</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/">Azure AD Conditional Access documentation - Microsoft Entra</a></li>
+<li><a href="https://learn.microsoft.com/en-us/training/modules/explore-access-management-capabilities/2-describe-conditional-access-azure-ad">Describe Conditional Access - Training</a></li>
+<li><a href="https://deviceadvice.io/2020/05/26/using-conditional-access-to-block-sign-in-from-another-device/">Using Conditional Access to block &quot;Sign in from another device&quot; - Device Advice</a></li>
+<li><a href="https://terenceluk.blogspot.com/search/label/Azure%20Conditional%20Access%20Policy">Terence Luk</a></li>
+<li><a href="https://www.infiflex.com/ip-based-conditional-access-in-m-365">IP based Conditional Access in M 365</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-architecture">Conditional Access architecture and personas - Azure Architecture Center</a></li>
+</ul>
+
+                            
+                </div>
+            </section>
+
+            
+
+
+        </main>
+        <script>
+            // Get all h2 elements
+            const h2Elements = document.querySelectorAll('h2');
+
+            // Loop through the h2 elements and find the one with the text 'References'
+            h2Elements.forEach(h2 => {
+                if (h2.textContent.trim() === 'References') {
+                    // Get the next sibling element, which should be the ul
+                    const nextElement = h2.nextElementSibling;
+
+                    // Check if the next element is a ul
+                    if (nextElement && nextElement.tagName === 'UL') {
+                        // Get all anchor tags inside the ul and add target="_blank"
+                        const anchorTags = nextElement.querySelectorAll('a');
+                        anchorTags.forEach(anchor => {
+                            anchor.setAttribute('target', '_blank');
+                        });
+                    }
+                }
+            });
+        </script>
+        <footer>
+    <div>
+        <div class="left-block">
+            <div class="logo">
+                <a href="https://supertokens.com/">
+                  <img src="https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&amp;w=256&amp;q=75" 
+                       onerror="this.onerror=null; this.src='https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png'" 
+                       alt="Primary Image" 
+                       height="40" />
+                </a>
+              </div>
+            <div class="copyright">
+                © 2023 SuperTokens. All rights reserved.
+            </div>
+        </div>
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <ul>
+                    
+                        
+                            <li>
+                                <a href="https://github.com/supertokens/supertokens-core" target="_blank" rel="noopener noreferrer">
+                                    GitHub
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.ycombinator.com/companies/supertokens" target="_blank" rel="noopener noreferrer">
+                                    Y Combinator
+                                </a>
+                            </li>
+                            
+                                
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+<script>
+    let scrollpos = window.scrollY;
+    const header = document.querySelector("header");
+    const navItems = document.querySelectorAll("nav .menu-item-has-children>a"); // Adjust the selector based on your menu items
+    const navSubItems = document.querySelectorAll("nav .menu-item-has-children .sub-menu.mega-menu"); // Adjust the selector based on your menu items
+
+    const add_class_on_scroll = () => header.classList.add("scroll");
+    const remove_class_on_scroll = () => header.classList.remove("scroll");
+
+    const add_class_on_hover = () => header.classList.add("hover");
+    const remove_class_on_hover = () => header.classList.remove("hover");
+
+    const check_scroll_position = () => {
+        scrollpos = window.scrollY;
+        if (scrollpos >= 80) {
+            add_class_on_scroll();
+        } else {
+            remove_class_on_scroll();
+        }
+    };
+
+    // Add or remove class based on scroll position
+    window.addEventListener("scroll", check_scroll_position);
+
+    // Add class on hover
+    navItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    // navItems.forEach((item) => {
+    // 	item.addEventListener("click", add_class_on_hover);
+    // });
+
+    // Add class on hover
+    navSubItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    navSubItems.forEach((item) => {
+        item.addEventListener("click", add_class_on_hover);
+    });
+    // Initial check when the page loads
+    document.addEventListener("DOMContentLoaded", check_scroll_position);
+    window.addEventListener("scroll", check_scroll_position);
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const dropdownButton = document.getElementById("dropdown-button");
+
+        if (dropdownButton) {
+            dropdownButton.addEventListener("click", () => {
+                document.body.classList.toggle("dropdown-open");
+            });
+        }
+    });
+
+    const menu = document.querySelector(".menu");
+    const menuMain = menu.querySelector(".menu-main");
+    const goBack = menu.querySelector(".go-back");
+    const menuTrigger = document.querySelector(".mobile-menu-trigger");
+    const closeMenu = menu.querySelector(".mobile-menu-close");
+    let subMenu;
+    menuMain.addEventListener("click", (e) => {
+        if (!menu.classList.contains("active")) {
+            return;
+        }
+        if (e.target.closest(".menu-item-has-children")) {
+            const hasChildren = e.target.closest(".menu-item-has-children");
+            showSubMenu(hasChildren);
+        }
+    });
+    goBack.addEventListener("click", () => {
+        hideSubMenu();
+    });
+    menuTrigger.addEventListener("click", () => {
+        toggleMenu();
+    });
+    closeMenu.addEventListener("click", () => {
+        toggleMenu();
+    });
+    document.querySelector(".menu-overlay").addEventListener("click", () => {
+        toggleMenu();
+    });
+    function toggleMenu() {
+        menu.classList.toggle("active");
+        document.querySelector(".menu-overlay").classList.toggle("active");
+    }
+    function showSubMenu(hasChildren) {
+        subMenu = hasChildren.querySelector(".sub-menu");
+        subMenu.classList.add("active");
+        subMenu.style.animation = "slideLeft 0.5s ease forwards";
+        const menuTitle =
+            hasChildren.querySelector(".chevronDown").parentNode.childNodes[0].textContent;
+        menu.querySelector(".current-menu-title").innerHTML = menuTitle;
+        menu.querySelector(".mobile-menu-head").classList.add("active");
+    }
+
+    function hideSubMenu() {
+        subMenu.style.animation = "slideRight 0.5s ease forwards";
+        setTimeout(() => {
+            subMenu.classList.remove("active");
+        }, 300);
+        menu.querySelector(".current-menu-title").innerHTML = "";
+        menu.querySelector(".mobile-menu-head").classList.remove("active");
+    }
+
+    window.onresize = function () {
+        if (this.innerWidth > 991) {
+            if (menu.classList.contains("active")) {
+                toggleMenu();
+            }
+        }
+    };
+
+</script>
+
+<script defer>
+    function updateLogoWidth() {
+        // Select elements
+        const ctaElement = document.querySelector('.item-right');
+        const logoElement = document.querySelector('.item-left');
+
+        // Get the computed width of CTA
+        const ctaWidth = ctaElement.getBoundingClientRect().width;
+    
+
+        // Apply the width to logo element
+        if (ctaWidth > 0) {
+            logoElement.style.width = `${ctaWidth}px`;
+        }
+    }
+
+    // Run on page load with a slight delay to ensure styles are applied
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(updateLogoWidth, 100);
+    });
+
+    // Run whenever window is resized
+    window.addEventListener('resize', updateLogoWidth);
+</script>
+</body>
+
+</html>

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        
+            Identity Policy
+                
+    </title>
+    <meta name="description" content="A set of permissions attached to an identity, dictating what actions the identity can perform in a system.">
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+    IAM Terminology Essentials - Your Authentication Solution
+</title>
+<link rel="icon" type="image/x-icon" href="https://supertokens.com/favicon.ico">
+
+    
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@500;600;700&display=swap"
+            rel="stylesheet">
+        
+            
+                <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.gracker.ai/style.min.css">
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+                <!-- and it's easy to individually load additional languages -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
+                <script>hljs.highlightAll();</script>
+
+                <style>
+                    :root {
+                        --primary-color: #ff5733;
+                        --secondary-color: #33c3ff;
+                        --background-color: #ffffff;
+                        --text-color: #333333;
+                        --accent-color: #e91e63;
+                        --font-primary: Roboto, Arial, sans-serif;
+                        --font-secondary: Lato, Arial, sans-serif;
+                    }
+                </style>
+</head>
+
+<body>
+    <header class="header group" id="main-header">
+    <div class="navigation">
+        <div class="header-item item-left">
+            <div class="logo"><a href="https://supertokens.com/"><img src="https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&amp;w=256&amp;q=75" 
+                onerror="this.onerror=null; this.src='https://cdn.gracker.ai/logo-placeholder-image.png'" 
+                alt="Primary Image"  height="40" /></a></div>
+        </div>
+
+        <div class="header-item item-center">
+            <div class="menu-overlay"></div>
+            <nav class="menu">
+                <div class="mobile-menu-head">
+                    <div class="go-back">
+                        &lt;
+                    </div>
+                    <div class="current-menu-title"></div>
+                    <div class="mobile-menu-close">&times;</div>
+                </div>
+                <ul class="menu-main">
+                    <li>
+                        <a href="https://supertokens.com/">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://supertokens.com/get-started" class="btn btn-primary show-in-mobile demo-btn">
+                            Get Started
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-item item-right nav-right">
+            <a href="https://supertokens.com/get-started" class="btn btn-ghost dark hide-in-mobile">
+                Get Started
+            </a>
+            <div class="mobile-menu-trigger">
+                <span></span>
+            </div>
+        </div>
+
+
+
+    </div>
+</header>
+        <main class="homeMainInner">
+            <section class="hero">
+                <div>
+                    <ul class="breadcrumb">
+                        <li><a href="/">Home</a></li>
+                        <li class="seprator">/</li>
+                
+                        
+                
+                        <li>Identity Policy</li>
+                    </ul>
+                    <div class="title header">
+                        <h1>Identity Policy</h1>
+                    </div>
+                    <p>November 29, 2024</p>
+                </div>
+            </section>
+            <section class="category-section page-content">
+                <div class="content has-space">
+                    <p>
+                        A set of permissions attached to an identity, dictating what actions the identity can perform in a system.
+                    </p>
+                    
+                        <h2>Description</h2>
+
+                            
+                        <p>In the realm of Identity and Access Management (IAM), an Identity Policy is a crucial component that defines the permissions and access levels for a specific identity, such as a user, group, or role. These policies are explicitly set to control what actions the identity can perform on various resources within a system. Identity Policies are key to ensuring security and compliance within an organization by ensuring that users only have access to the resources necessary for their roles. Typically, these policies are written in a structured format, like JSON, and include statements that specify allowed or denied actions, the resources involved, and any conditions or constraints. Properly managing and updating Identity Policies helps prevent unauthorized access and reduces the risk of security breaches, making them a fundamental part of any robust IAM strategy.</p>
+
+                            
+                        <h2>Examples</h2>
+
+                            
+                        <ul>
+<li>An Identity Policy that allows a user to view and edit documents within a specific folder.</li>
+<li>A policy attached to a role that grants permissions to launch and manage virtual machines in a cloud environment.</li>
+</ul>
+
+                            
+                        <h2>Additional Information</h2>
+
+                            
+                        <ul>
+<li>Identity Policies are often used in cloud environments like AWS, Azure, and Google Cloud to manage access to services and resources.</li>
+<li>Regular audits and reviews of Identity Policies are essential to maintain security and ensure compliance with organizational policies and regulations.</li>
+</ul>
+
+                            
+                        <h2>References</h2>
+
+                            
+                        <ul>
+<li><a href="http://web.archive.org/web/20200507083309/http://fanlore.org/wiki/Fanlore:Identity_Protection">Fanlore:Identity Protection</a></li>
+<li><a href="https://www.aclweb.org/adminwiki/index.php/ACL_Policies_for_Review_and_Citation">ACL Policies for Review and Citation</a></li>
+<li><a href="https://spg.umich.edu/policy/601.19">Identity Misrepresentation | Standard Practice Guides</a></li>
+<li><a href="https://www.acm.org/publications/policies/new-acm-policy-on-authorship">ACM Policy on Authorship</a></li>
+<li><a href="https://wikitech.wikimedia.org/wiki/Wikitech:Username_policy">Wikitech:Username policy - Wikitech</a></li>
+<li><a href="https://www.aclweb.org/adminwiki/index.php/ACL_Policies_for_Submission,_Review_and_Citation">ACL Policies for Submission, Review and Citation</a></li>
+<li><a href="https://docs.github.com/en/site-policy/acceptable-use-policies/github-impersonation">GitHub Impersonation - GitHub Docs</a></li>
+<li><a href="https://commons.wikimedia.org/wiki/Commons:Username_policy">Commons:Username policy - Wikimedia Commons</a></li>
+<li><a href="https://aws.amazon.com/certification/policies/during-testing/">During Testing | AWS Certification Information and Policies</a></li>
+<li><a href="https://en.m.wikiversity.org/wiki/Wikiversity:Privacy_policy">Wikiversity:Privacy policy - Wikiversity</a></li>
+<li><a href="https://s2023.siggraph.org/anonymity-policy">Anonymity Policy | SIGGRAPH 2023</a></li>
+<li><a href="https://www.acm.org/publications/policies/author-name-changes">ACM Publications Policy on Author Name Changes</a></li>
+<li><a href="https://github.com/vector-im/policies/blob/master/docs/identity-server/privacy_notice.md">policies/privacy_notice.md at master · vector-im/policies</a></li>
+<li><a href="https://github.com/ChristopherA/self-sovereign-identity/blob/master/self-sovereign-identity-principles.md">self-sovereign-identity/self-sovereign-identity-principles.md at master · ChristopherA/self-sovereign-identity</a></li>
+<li><a href="https://remywiki.com/RemyWiki:Privacy_policy">Privacy policy</a></li>
+<li><a href="https://meta.wikimedia.org/wiki/Password_policy">Password policy</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Wikipedia:Administrator_accountability">Wikipedia:Administrator accountability - Wikipedia</a></li>
+<li><a href="https://iam.harvard.edu/resources/iam-policies-standards">HUIT IAM Policies &amp; Standards</a></li>
+<li><a href="https://github.com/18F/identity-playbook">GitHub - 18F/identity-playbook</a></li>
+<li><a href="https://ipfs.kleros.io/ipfs/Qmc7ag5XohnSAozvsKsLCUbvaFyasyLtyi3H7g3mmxznPU/proof-of-humanity-registry-policy.pdf"></a></li>
+<li><a href="https://universitypolicy.gmu.edu/policies/chosen-name-pronouns-policy/">Chosen Name and Pronouns Policy – University Policy</a></li>
+<li><a href="https://yukinaniwa.github.io/winwinwin-privacy-policy/">プライバシーポリシー</a></li>
+<li><a href="https://www.conjecture.dev/information-hazard-policy">Conjecture</a></li>
+<li><a href="https://www.wikidata.org/wiki/Template:Policies_and_Guidelines">Template:Policies and Guidelines - Wikidata</a></li>
+<li><a href="https://amzl-dsp-bgc-docs.s3.amazonaws.com/Photos+Use+and+Biometric+Information+Retention+Policy.pdf"></a></li>
+</ul>
+
+                            
+                </div>
+            </section>
+
+            
+
+
+        </main>
+        <script>
+            // Get all h2 elements
+            const h2Elements = document.querySelectorAll('h2');
+
+            // Loop through the h2 elements and find the one with the text 'References'
+            h2Elements.forEach(h2 => {
+                if (h2.textContent.trim() === 'References') {
+                    // Get the next sibling element, which should be the ul
+                    const nextElement = h2.nextElementSibling;
+
+                    // Check if the next element is a ul
+                    if (nextElement && nextElement.tagName === 'UL') {
+                        // Get all anchor tags inside the ul and add target="_blank"
+                        const anchorTags = nextElement.querySelectorAll('a');
+                        anchorTags.forEach(anchor => {
+                            anchor.setAttribute('target', '_blank');
+                        });
+                    }
+                }
+            });
+        </script>
+        <footer>
+    <div>
+        <div class="left-block">
+            <div class="logo">
+                <a href="https://supertokens.com/">
+                  <img src="https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&amp;w=256&amp;q=75" 
+                       onerror="this.onerror=null; this.src='https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png'" 
+                       alt="Primary Image" 
+                       height="40" />
+                </a>
+              </div>
+            <div class="copyright">
+                © 2023 SuperTokens. All rights reserved.
+            </div>
+        </div>
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <ul>
+                    
+                        
+                            <li>
+                                <a href="https://github.com/supertokens/supertokens-core" target="_blank" rel="noopener noreferrer">
+                                    GitHub
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.ycombinator.com/companies/supertokens" target="_blank" rel="noopener noreferrer">
+                                    Y Combinator
+                                </a>
+                            </li>
+                            
+                                
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+<script>
+    let scrollpos = window.scrollY;
+    const header = document.querySelector("header");
+    const navItems = document.querySelectorAll("nav .menu-item-has-children>a"); // Adjust the selector based on your menu items
+    const navSubItems = document.querySelectorAll("nav .menu-item-has-children .sub-menu.mega-menu"); // Adjust the selector based on your menu items
+
+    const add_class_on_scroll = () => header.classList.add("scroll");
+    const remove_class_on_scroll = () => header.classList.remove("scroll");
+
+    const add_class_on_hover = () => header.classList.add("hover");
+    const remove_class_on_hover = () => header.classList.remove("hover");
+
+    const check_scroll_position = () => {
+        scrollpos = window.scrollY;
+        if (scrollpos >= 80) {
+            add_class_on_scroll();
+        } else {
+            remove_class_on_scroll();
+        }
+    };
+
+    // Add or remove class based on scroll position
+    window.addEventListener("scroll", check_scroll_position);
+
+    // Add class on hover
+    navItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    // navItems.forEach((item) => {
+    // 	item.addEventListener("click", add_class_on_hover);
+    // });
+
+    // Add class on hover
+    navSubItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    navSubItems.forEach((item) => {
+        item.addEventListener("click", add_class_on_hover);
+    });
+    // Initial check when the page loads
+    document.addEventListener("DOMContentLoaded", check_scroll_position);
+    window.addEventListener("scroll", check_scroll_position);
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const dropdownButton = document.getElementById("dropdown-button");
+
+        if (dropdownButton) {
+            dropdownButton.addEventListener("click", () => {
+                document.body.classList.toggle("dropdown-open");
+            });
+        }
+    });
+
+    const menu = document.querySelector(".menu");
+    const menuMain = menu.querySelector(".menu-main");
+    const goBack = menu.querySelector(".go-back");
+    const menuTrigger = document.querySelector(".mobile-menu-trigger");
+    const closeMenu = menu.querySelector(".mobile-menu-close");
+    let subMenu;
+    menuMain.addEventListener("click", (e) => {
+        if (!menu.classList.contains("active")) {
+            return;
+        }
+        if (e.target.closest(".menu-item-has-children")) {
+            const hasChildren = e.target.closest(".menu-item-has-children");
+            showSubMenu(hasChildren);
+        }
+    });
+    goBack.addEventListener("click", () => {
+        hideSubMenu();
+    });
+    menuTrigger.addEventListener("click", () => {
+        toggleMenu();
+    });
+    closeMenu.addEventListener("click", () => {
+        toggleMenu();
+    });
+    document.querySelector(".menu-overlay").addEventListener("click", () => {
+        toggleMenu();
+    });
+    function toggleMenu() {
+        menu.classList.toggle("active");
+        document.querySelector(".menu-overlay").classList.toggle("active");
+    }
+    function showSubMenu(hasChildren) {
+        subMenu = hasChildren.querySelector(".sub-menu");
+        subMenu.classList.add("active");
+        subMenu.style.animation = "slideLeft 0.5s ease forwards";
+        const menuTitle =
+            hasChildren.querySelector(".chevronDown").parentNode.childNodes[0].textContent;
+        menu.querySelector(".current-menu-title").innerHTML = menuTitle;
+        menu.querySelector(".mobile-menu-head").classList.add("active");
+    }
+
+    function hideSubMenu() {
+        subMenu.style.animation = "slideRight 0.5s ease forwards";
+        setTimeout(() => {
+            subMenu.classList.remove("active");
+        }, 300);
+        menu.querySelector(".current-menu-title").innerHTML = "";
+        menu.querySelector(".mobile-menu-head").classList.remove("active");
+    }
+
+    window.onresize = function () {
+        if (this.innerWidth > 991) {
+            if (menu.classList.contains("active")) {
+                toggleMenu();
+            }
+        }
+    };
+
+</script>
+
+<script defer>
+    function updateLogoWidth() {
+        // Select elements
+        const ctaElement = document.querySelector('.item-right');
+        const logoElement = document.querySelector('.item-left');
+
+        // Get the computed width of CTA
+        const ctaWidth = ctaElement.getBoundingClientRect().width;
+    
+
+        // Apply the width to logo element
+        if (ctaWidth > 0) {
+            logoElement.style.width = `${ctaWidth}px`;
+        }
+    }
+
+    // Run on page load with a slight delay to ensure styles are applied
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(updateLogoWidth, 100);
+    });
+
+    // Run whenever window is resized
+    window.addEventListener('resize', updateLogoWidth);
+</script>
+</body>
+
+</html>

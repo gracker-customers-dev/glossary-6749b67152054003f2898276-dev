@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        
+            Authorization Engine
+                
+    </title>
+    <meta name="description" content="A component that determines if a user has permission to perform a specific action on a resource.">
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+    IAM Terminology Essentials - Your Authentication Solution
+</title>
+<link rel="icon" type="image/x-icon" href="https://supertokens.com/favicon.ico">
+
+    
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@500;600;700&display=swap"
+            rel="stylesheet">
+        
+            
+                <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.gracker.ai/style.min.css">
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+                <!-- and it's easy to individually load additional languages -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
+                <script>hljs.highlightAll();</script>
+
+                <style>
+                    :root {
+                        --primary-color: #ff5733;
+                        --secondary-color: #33c3ff;
+                        --background-color: #ffffff;
+                        --text-color: #333333;
+                        --accent-color: #e91e63;
+                        --font-primary: Roboto, Arial, sans-serif;
+                        --font-secondary: Lato, Arial, sans-serif;
+                    }
+                </style>
+</head>
+
+<body>
+    <header class="header group" id="main-header">
+    <div class="navigation">
+        <div class="header-item item-left">
+            <div class="logo"><a href="https://supertokens.com/"><img src="https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&amp;w=256&amp;q=75" 
+                onerror="this.onerror=null; this.src='https://cdn.gracker.ai/logo-placeholder-image.png'" 
+                alt="Primary Image"  height="40" /></a></div>
+        </div>
+
+        <div class="header-item item-center">
+            <div class="menu-overlay"></div>
+            <nav class="menu">
+                <div class="mobile-menu-head">
+                    <div class="go-back">
+                        &lt;
+                    </div>
+                    <div class="current-menu-title"></div>
+                    <div class="mobile-menu-close">&times;</div>
+                </div>
+                <ul class="menu-main">
+                    <li>
+                        <a href="https://supertokens.com/">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://supertokens.com/get-started" class="btn btn-primary show-in-mobile demo-btn">
+                            Get Started
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-item item-right nav-right">
+            <a href="https://supertokens.com/get-started" class="btn btn-ghost dark hide-in-mobile">
+                Get Started
+            </a>
+            <div class="mobile-menu-trigger">
+                <span></span>
+            </div>
+        </div>
+
+
+
+    </div>
+</header>
+        <main class="homeMainInner">
+            <section class="hero">
+                <div>
+                    <ul class="breadcrumb">
+                        <li><a href="/">Home</a></li>
+                        <li class="seprator">/</li>
+                
+                        
+                
+                        <li>Authorization Engine</li>
+                    </ul>
+                    <div class="title header">
+                        <h1>Authorization Engine</h1>
+                    </div>
+                    <p>November 29, 2024</p>
+                </div>
+            </section>
+            <section class="category-section page-content">
+                <div class="content has-space">
+                    <p>
+                        A component that determines if a user has permission to perform a specific action on a resource.
+                    </p>
+                    
+                        <h2>Description</h2>
+
+                            
+                        <p>An Authorization Engine is a critical component within an Identity and Access Management (IAM) system. It evaluates access requests against the policies defined for resources and users to determine whether the action should be allowed or denied. The engine considers various factors such as the user&#39;s identity, roles, attributes, and the context of the request (e.g., time, location, device type). By processing these parameters, the Authorization Engine enforces security policies consistently across the organization&#39;s IT environment. It often relies on standards like XACML (eXtensible Access Control Markup Language) to define and evaluate policies. The engine must be efficient and scalable to handle a large number of access requests in real-time, ensuring seamless user experience while maintaining security. Additionally, it may integrate with other IAM components such as identity providers and directories to retrieve necessary user information during the authorization process.</p>
+
+                            
+                        <h2>Examples</h2>
+
+                            
+                        <ul>
+<li>A user attempts to access a file on a corporate network, and the Authorization Engine checks if the user has the &#39;read&#39; permission for that file.</li>
+<li>A web application requests access to a user&#39;s profile data from another service, and the Authorization Engine evaluates if the application has the necessary OAuth scopes.</li>
+</ul>
+
+                            
+                        <h2>Additional Information</h2>
+
+                            
+                        <ul>
+<li>Authorization Engines are often part of larger IAM solutions, providing centralized access control management.</li>
+<li>They can be configured to support complex policy requirements, including conditional access based on user attributes and environmental conditions.</li>
+</ul>
+
+                            
+                        <h2>References</h2>
+
+                            
+                        <ul>
+<li><a href="https://authorizer.tech/">Home | authorizer | authorizer</a></li>
+<li><a href="https://github.com/davedoesdev/authorize-jwt">GitHub - davedoesdev/authorize-jwt: Simple JSON Web Token authorization with WebAuthn support</a></li>
+<li><a href="https://github.com/libxengine/XEngine_Authorize">GitHub - libxengine/XEngine_Authorize: c c++ network authorize service.c c++ 网络验证服务.c c++ 网络授权服务</a></li>
+<li><a href="https://github.com/authorizer-tech/access-controller">GitHub - authorizer-tech/access-controller: A highly scalable open-source implementation of an access-control engine inspired by Google Zanzibar-&quot;Google’s Consistent, Global Authorization System&quot;</a></li>
+<li><a href="https://kala.andreisurugiu.com/">Kala - authorization framework</a></li>
+<li><a href="https://github.com/clayrisser/lb4-authorization">GitHub - clayrisser/lb4-authorization: authorization adapter for loopback 4</a></li>
+<li><a href="https://github.com/renderforest/service-auth">GitHub - renderforest/service-auth: Auth service to set authorization and authorize requests</a></li>
+<li><a href="https://github.com/dotronglong/superagent-authorization">GitHub - dotronglong/superagent-authorization</a></li>
+<li><a href="https://github.com/Wissance/Authorization">GitHub - Wissance/Authorization: An unofficial adapters to use KeyCloak as Authentication and Authorization server</a></li>
+<li><a href="https://github.com/muhammadelhelaly/PermissionBasedAuthorizationIntDotNet5">GitHub - muhammadelhelaly/PermissionBasedAuthorizationIntDotNet5: Permission Based Authorization Int .Net 5 (Core)</a></li>
+<li><a href="https://github.com/mainmatter/rails_api_auth">GitHub - mainmatter/rails_api_auth: Lightweight Rails Engine that implements the &quot;Resource Owner Password Credentials Grant&quot; OAuth 2.0 flow as well as Facebook authentication</a></li>
+<li><a href="https://github.com/joebalancio/authzy">GitHub - joebalancio/authzy: Voting-based Authorization</a></li>
+<li><a href="https://github.com/AMUDENN/Authorization">GitHub - AMUDENN/Authorization</a></li>
+<li><a href="https://github.com/toniiiik/aedes-keycloak-authorizer">GitHub - toniiiik/aedes-keycloak-authorizer</a></li>
+<li><a href="https://github.com/anmalkov/custom-authorization">GitHub - anmalkov/custom-authorization</a></li>
+<li><a href="https://github.com/yahoojapan/authorization-proxy">GitHub - yahoojapan/authorization-proxy: Moved to https://github.com/AthenZ/authorization-proxy</a></li>
+<li><a href="https://github.com/dharmax/am-i-allowed">GitHub - dharmax/am-i-allowed: A sweet, zero-dependencies, agnostic, powerful permission/authorization module</a></li>
+<li><a href="https://casl.js.org/v6/en/">CASL. Isomorphic Authorization JavaScript library</a></li>
+<li><a href="https://github.com/zorostang/nft-authorization-front-end">GitHub - zorostang/nft-authorization-front-end: This is a basic login page using a user&#39;s NFT for authorization</a></li>
+<li><a href="https://github.com/cashier-provider/sber-auth">GitHub - cashier-provider/sber-auth: Sber API Authorization Driver</a></li>
+<li><a href="https://github.com/wilmoore/basic-authorization-header.js">GitHub - wilmoore/basic-authorization-header.js: RFC2617 basic authorization header from username and password.</a></li>
+<li><a href="https://github.com/myobie/authority">GitHub - myobie/authority: An OpenID Connect compatible authorization server providing a JSON API</a></li>
+<li><a href="https://github.com/sunbufu/sunbufu-authorize">GitHub - sunbufu/sunbufu-authorize: 注解式权限认证</a></li>
+<li><a href="https://github.com/harvard-edtech/caccl-authorizer">GitHub - harvard-edtech/caccl-authorizer: Acquires Canvas tokens through via OAuth, stores refresh tokens, and refreshes access tokens when they expire.</a></li>
+<li><a href="https://github.com/benjamincanac/imperium">GitHub - benjamincanac/imperium: Role-based Authorizations library for Node.js</a></li>
+</ul>
+
+                            
+                </div>
+            </section>
+
+            
+
+
+        </main>
+        <script>
+            // Get all h2 elements
+            const h2Elements = document.querySelectorAll('h2');
+
+            // Loop through the h2 elements and find the one with the text 'References'
+            h2Elements.forEach(h2 => {
+                if (h2.textContent.trim() === 'References') {
+                    // Get the next sibling element, which should be the ul
+                    const nextElement = h2.nextElementSibling;
+
+                    // Check if the next element is a ul
+                    if (nextElement && nextElement.tagName === 'UL') {
+                        // Get all anchor tags inside the ul and add target="_blank"
+                        const anchorTags = nextElement.querySelectorAll('a');
+                        anchorTags.forEach(anchor => {
+                            anchor.setAttribute('target', '_blank');
+                        });
+                    }
+                }
+            });
+        </script>
+        <footer>
+    <div>
+        <div class="left-block">
+            <div class="logo">
+                <a href="https://supertokens.com/">
+                  <img src="https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&amp;w=256&amp;q=75" 
+                       onerror="this.onerror=null; this.src='https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png'" 
+                       alt="Primary Image" 
+                       height="40" />
+                </a>
+              </div>
+            <div class="copyright">
+                © 2023 SuperTokens. All rights reserved.
+            </div>
+        </div>
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <ul>
+                    
+                        
+                            <li>
+                                <a href="https://github.com/supertokens/supertokens-core" target="_blank" rel="noopener noreferrer">
+                                    GitHub
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.ycombinator.com/companies/supertokens" target="_blank" rel="noopener noreferrer">
+                                    Y Combinator
+                                </a>
+                            </li>
+                            
+                                
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+<script>
+    let scrollpos = window.scrollY;
+    const header = document.querySelector("header");
+    const navItems = document.querySelectorAll("nav .menu-item-has-children>a"); // Adjust the selector based on your menu items
+    const navSubItems = document.querySelectorAll("nav .menu-item-has-children .sub-menu.mega-menu"); // Adjust the selector based on your menu items
+
+    const add_class_on_scroll = () => header.classList.add("scroll");
+    const remove_class_on_scroll = () => header.classList.remove("scroll");
+
+    const add_class_on_hover = () => header.classList.add("hover");
+    const remove_class_on_hover = () => header.classList.remove("hover");
+
+    const check_scroll_position = () => {
+        scrollpos = window.scrollY;
+        if (scrollpos >= 80) {
+            add_class_on_scroll();
+        } else {
+            remove_class_on_scroll();
+        }
+    };
+
+    // Add or remove class based on scroll position
+    window.addEventListener("scroll", check_scroll_position);
+
+    // Add class on hover
+    navItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    // navItems.forEach((item) => {
+    // 	item.addEventListener("click", add_class_on_hover);
+    // });
+
+    // Add class on hover
+    navSubItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    navSubItems.forEach((item) => {
+        item.addEventListener("click", add_class_on_hover);
+    });
+    // Initial check when the page loads
+    document.addEventListener("DOMContentLoaded", check_scroll_position);
+    window.addEventListener("scroll", check_scroll_position);
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const dropdownButton = document.getElementById("dropdown-button");
+
+        if (dropdownButton) {
+            dropdownButton.addEventListener("click", () => {
+                document.body.classList.toggle("dropdown-open");
+            });
+        }
+    });
+
+    const menu = document.querySelector(".menu");
+    const menuMain = menu.querySelector(".menu-main");
+    const goBack = menu.querySelector(".go-back");
+    const menuTrigger = document.querySelector(".mobile-menu-trigger");
+    const closeMenu = menu.querySelector(".mobile-menu-close");
+    let subMenu;
+    menuMain.addEventListener("click", (e) => {
+        if (!menu.classList.contains("active")) {
+            return;
+        }
+        if (e.target.closest(".menu-item-has-children")) {
+            const hasChildren = e.target.closest(".menu-item-has-children");
+            showSubMenu(hasChildren);
+        }
+    });
+    goBack.addEventListener("click", () => {
+        hideSubMenu();
+    });
+    menuTrigger.addEventListener("click", () => {
+        toggleMenu();
+    });
+    closeMenu.addEventListener("click", () => {
+        toggleMenu();
+    });
+    document.querySelector(".menu-overlay").addEventListener("click", () => {
+        toggleMenu();
+    });
+    function toggleMenu() {
+        menu.classList.toggle("active");
+        document.querySelector(".menu-overlay").classList.toggle("active");
+    }
+    function showSubMenu(hasChildren) {
+        subMenu = hasChildren.querySelector(".sub-menu");
+        subMenu.classList.add("active");
+        subMenu.style.animation = "slideLeft 0.5s ease forwards";
+        const menuTitle =
+            hasChildren.querySelector(".chevronDown").parentNode.childNodes[0].textContent;
+        menu.querySelector(".current-menu-title").innerHTML = menuTitle;
+        menu.querySelector(".mobile-menu-head").classList.add("active");
+    }
+
+    function hideSubMenu() {
+        subMenu.style.animation = "slideRight 0.5s ease forwards";
+        setTimeout(() => {
+            subMenu.classList.remove("active");
+        }, 300);
+        menu.querySelector(".current-menu-title").innerHTML = "";
+        menu.querySelector(".mobile-menu-head").classList.remove("active");
+    }
+
+    window.onresize = function () {
+        if (this.innerWidth > 991) {
+            if (menu.classList.contains("active")) {
+                toggleMenu();
+            }
+        }
+    };
+
+</script>
+
+<script defer>
+    function updateLogoWidth() {
+        // Select elements
+        const ctaElement = document.querySelector('.item-right');
+        const logoElement = document.querySelector('.item-left');
+
+        // Get the computed width of CTA
+        const ctaWidth = ctaElement.getBoundingClientRect().width;
+    
+
+        // Apply the width to logo element
+        if (ctaWidth > 0) {
+            logoElement.style.width = `${ctaWidth}px`;
+        }
+    }
+
+    // Run on page load with a slight delay to ensure styles are applied
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(updateLogoWidth, 100);
+    });
+
+    // Run whenever window is resized
+    window.addEventListener('resize', updateLogoWidth);
+</script>
+</body>
+
+</html>

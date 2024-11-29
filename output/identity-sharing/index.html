@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        
+            Identity Sharing
+                
+    </title>
+    <meta name="description" content="Identity Sharing refers to the practice of allowing multiple users or systems to access a shared identity for authentication and authorization purposes within an Identity and Access Management (IAM) framework.">
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+    IAM Terminology Essentials - Your Authentication Solution
+</title>
+<link rel="icon" type="image/x-icon" href="https://supertokens.com/favicon.ico">
+
+    
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@500;600;700&display=swap"
+            rel="stylesheet">
+        
+            
+                <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.gracker.ai/style.min.css">
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+                <!-- and it's easy to individually load additional languages -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
+                <script>hljs.highlightAll();</script>
+
+                <style>
+                    :root {
+                        --primary-color: #ff5733;
+                        --secondary-color: #33c3ff;
+                        --background-color: #ffffff;
+                        --text-color: #333333;
+                        --accent-color: #e91e63;
+                        --font-primary: Roboto, Arial, sans-serif;
+                        --font-secondary: Lato, Arial, sans-serif;
+                    }
+                </style>
+</head>
+
+<body>
+    <header class="header group" id="main-header">
+    <div class="navigation">
+        <div class="header-item item-left">
+            <div class="logo"><a href="https://supertokens.com/"><img src="https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&amp;w=256&amp;q=75" 
+                onerror="this.onerror=null; this.src='https://cdn.gracker.ai/logo-placeholder-image.png'" 
+                alt="Primary Image"  height="40" /></a></div>
+        </div>
+
+        <div class="header-item item-center">
+            <div class="menu-overlay"></div>
+            <nav class="menu">
+                <div class="mobile-menu-head">
+                    <div class="go-back">
+                        &lt;
+                    </div>
+                    <div class="current-menu-title"></div>
+                    <div class="mobile-menu-close">&times;</div>
+                </div>
+                <ul class="menu-main">
+                    <li>
+                        <a href="https://supertokens.com/">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://supertokens.com/get-started" class="btn btn-primary show-in-mobile demo-btn">
+                            Get Started
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-item item-right nav-right">
+            <a href="https://supertokens.com/get-started" class="btn btn-ghost dark hide-in-mobile">
+                Get Started
+            </a>
+            <div class="mobile-menu-trigger">
+                <span></span>
+            </div>
+        </div>
+
+
+
+    </div>
+</header>
+        <main class="homeMainInner">
+            <section class="hero">
+                <div>
+                    <ul class="breadcrumb">
+                        <li><a href="/">Home</a></li>
+                        <li class="seprator">/</li>
+                
+                        
+                
+                        <li>Identity Sharing</li>
+                    </ul>
+                    <div class="title header">
+                        <h1>Identity Sharing</h1>
+                    </div>
+                    <p>November 29, 2024</p>
+                </div>
+            </section>
+            <section class="category-section page-content">
+                <div class="content has-space">
+                    <p>
+                        Identity Sharing refers to the practice of allowing multiple users or systems to access a shared identity for authentication and authorization purposes within an Identity and Access Management (IAM) framework.
+                    </p>
+                    
+                        <h2>Description</h2>
+
+                            
+                        <p>In the context of Identity and Access Management (IAM), Identity Sharing involves the use of a single identity by multiple users or systems to gain access to resources. This practice can simplify access management by reducing the number of individual identities that need to be maintained. However, it also introduces security and accountability challenges. When multiple users share the same identity, it becomes difficult to track actions back to a specific individual, thereby complicating auditing and compliance efforts. Identity Sharing is often used in scenarios where a shared resource needs to be accessed by a group, such as a generic account for a department or a service account used by multiple applications. To mitigate risks, organizations often implement controls such as logging, monitoring, and restricting the permissions associated with shared identities. Despite its convenience, Identity Sharing is generally discouraged in favor of individual identities that enhance security and traceability.</p>
+
+                            
+                        <h2>Examples</h2>
+
+                            
+                        <ul>
+<li>Using a generic email account for a support team that multiple employees access.</li>
+<li>A shared service account used by several microservices to access a database.</li>
+</ul>
+
+                            
+                        <h2>Additional Information</h2>
+
+                            
+                        <ul>
+<li>Identity Sharing can lead to security risks due to the lack of individual accountability.</li>
+<li>Best practices recommend using identity federation or role-based access control to avoid the need for Identity Sharing.</li>
+</ul>
+
+                            
+                        <h2>References</h2>
+
+                            
+                        <ul>
+<li><a href="https://www.identityserver.com/articles/identityserver4-ws-federation-and-sharepoint">IdentityServer4 - WS-Federation and SharePoint</a></li>
+<li><a href="https://www.scottbrady91.com/identity-server/identityserver-4-sharepoint-integration-using-ws-federation">IdentityServer SharePoint Integration using WS-Federation</a></li>
+<li><a href="https://learn.microsoft.com/en-us/hololens/hololens-multiple-users">Share your HoloLens with multiple people</a></li>
+<li><a href="https://learn.microsoft.com/en-us/aspnet/core/security/cookie-sharing?view=aspnetcore-7.0">Share authentication cookies among ASP.NET apps</a></li>
+<li><a href="https://segment.com/docs/personas/identity-resolution/">Redirecting…</a></li>
+<li><a href="https://social.technet.microsoft.com/wiki/contents/articles/15530.the-four-pillars-of-identity-identity-management-in-the-age-of-hybrid-it.aspx">The Four Pillars of Identity - Identity Management in the Age of Hybrid IT</a></li>
+<li><a href="https://learn.microsoft.com/en-us/previous-versions/technet-magazine/cc160963(v=msdn.10)">Managing Identity: Simplify Single Sign-on Using ADFS</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/users-sharing-accounts">Sharing accounts and credentials - Azure Active Directory - Microsoft Entra</a></li>
+<li><a href="https://www.pubnub.com/blog/mitigate-and-prevent-subscription-sharing-for-saas-companies/">Mitigate and Prevent Subscription Sharing for SaaS Companies</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/architecture/guide/multitenant/considerations/identity">Architectural considerations for identity in a multitenant solution - Azure Architecture Center</a></li>
+<li><a href="https://www.oneidentity.com/community/blogs/b/identity-governance-administration">Identity Governance &amp; Administration - Blogs</a></li>
+<li><a href="https://www.identityserver.com/articles">Articles</a></li>
+<li><a href="https://packetpassers.com/palo-alto-networks-user-id-redistribution/">Palo Alto Networks User-ID (Data) Redistribution</a></li>
+<li><a href="https://activedirectoryfaq.com/tag/organization-sharing">Organization Sharing Archives - Active Directory FAQ</a></li>
+<li><a href="https://learn.microsoft.com/en-us/previous-versions/dotnet/articles/ms996456(v=msdn.10)?redirectedfrom=MSDN">The Laws of Identity</a></li>
+<li><a href="https://www.microsoft.com/en-us/security/business/solutions/identity-access">Identity and Access | Microsoft Security</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/architecture/multitenant-identity/">Multitenancy and identity management - Azure Architecture Center</a></li>
+<li><a href="https://www.oneidentity.com/community/blogs/b/active-directory-management-and-security">Active Directory Management (AD Mgmt) - Blogs</a></li>
+<li><a href="https://www.hanselman.com/blog/sharing-authorization-cookies-between-aspnet-4x-and-aspnet-core-10">Sharing Authorization Cookies between ASP.NET 4.x and ASP.NET Core 1.0</a></li>
+<li><a href="https://towardsdatascience.com/identity-keyrings-201d17295954?gi=441d197e3594">Identity keyrings</a></li>
+<li><a href="https://www.microsoft.com/en-us/security/blog/identity-and-access-management/">Identity and access management - Microsoft Security Blog</a></li>
+<li><a href="https://blog.bytesense.tech/sharepoint-online-external-sharing/">SharePoint Online &amp; OneDrive External Sharing</a></li>
+<li><a href="https://azure.microsoft.com/en-us/blog/topics/identity-access-management/">Identity &amp; Access Management | Azure Blog and Updates | Microsoft Azure</a></li>
+<li><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/design/when-to-use-identity-delegation">When to Use Identity Delegation</a></li>
+<li><a href="https://learn.microsoft.com/en-us/previous-versions/cc836390(v=msdn.10)?redirectedfrom=MSDN">Claims and Identity: On-Premise and Cloud Solutions</a></li>
+</ul>
+
+                            
+                </div>
+            </section>
+
+            
+
+
+        </main>
+        <script>
+            // Get all h2 elements
+            const h2Elements = document.querySelectorAll('h2');
+
+            // Loop through the h2 elements and find the one with the text 'References'
+            h2Elements.forEach(h2 => {
+                if (h2.textContent.trim() === 'References') {
+                    // Get the next sibling element, which should be the ul
+                    const nextElement = h2.nextElementSibling;
+
+                    // Check if the next element is a ul
+                    if (nextElement && nextElement.tagName === 'UL') {
+                        // Get all anchor tags inside the ul and add target="_blank"
+                        const anchorTags = nextElement.querySelectorAll('a');
+                        anchorTags.forEach(anchor => {
+                            anchor.setAttribute('target', '_blank');
+                        });
+                    }
+                }
+            });
+        </script>
+        <footer>
+    <div>
+        <div class="left-block">
+            <div class="logo">
+                <a href="https://supertokens.com/">
+                  <img src="https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&amp;w=256&amp;q=75" 
+                       onerror="this.onerror=null; this.src='https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png'" 
+                       alt="Primary Image" 
+                       height="40" />
+                </a>
+              </div>
+            <div class="copyright">
+                © 2023 SuperTokens. All rights reserved.
+            </div>
+        </div>
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <ul>
+                    
+                        
+                            <li>
+                                <a href="https://github.com/supertokens/supertokens-core" target="_blank" rel="noopener noreferrer">
+                                    GitHub
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.ycombinator.com/companies/supertokens" target="_blank" rel="noopener noreferrer">
+                                    Y Combinator
+                                </a>
+                            </li>
+                            
+                                
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+<script>
+    let scrollpos = window.scrollY;
+    const header = document.querySelector("header");
+    const navItems = document.querySelectorAll("nav .menu-item-has-children>a"); // Adjust the selector based on your menu items
+    const navSubItems = document.querySelectorAll("nav .menu-item-has-children .sub-menu.mega-menu"); // Adjust the selector based on your menu items
+
+    const add_class_on_scroll = () => header.classList.add("scroll");
+    const remove_class_on_scroll = () => header.classList.remove("scroll");
+
+    const add_class_on_hover = () => header.classList.add("hover");
+    const remove_class_on_hover = () => header.classList.remove("hover");
+
+    const check_scroll_position = () => {
+        scrollpos = window.scrollY;
+        if (scrollpos >= 80) {
+            add_class_on_scroll();
+        } else {
+            remove_class_on_scroll();
+        }
+    };
+
+    // Add or remove class based on scroll position
+    window.addEventListener("scroll", check_scroll_position);
+
+    // Add class on hover
+    navItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    // navItems.forEach((item) => {
+    // 	item.addEventListener("click", add_class_on_hover);
+    // });
+
+    // Add class on hover
+    navSubItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    navSubItems.forEach((item) => {
+        item.addEventListener("click", add_class_on_hover);
+    });
+    // Initial check when the page loads
+    document.addEventListener("DOMContentLoaded", check_scroll_position);
+    window.addEventListener("scroll", check_scroll_position);
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const dropdownButton = document.getElementById("dropdown-button");
+
+        if (dropdownButton) {
+            dropdownButton.addEventListener("click", () => {
+                document.body.classList.toggle("dropdown-open");
+            });
+        }
+    });
+
+    const menu = document.querySelector(".menu");
+    const menuMain = menu.querySelector(".menu-main");
+    const goBack = menu.querySelector(".go-back");
+    const menuTrigger = document.querySelector(".mobile-menu-trigger");
+    const closeMenu = menu.querySelector(".mobile-menu-close");
+    let subMenu;
+    menuMain.addEventListener("click", (e) => {
+        if (!menu.classList.contains("active")) {
+            return;
+        }
+        if (e.target.closest(".menu-item-has-children")) {
+            const hasChildren = e.target.closest(".menu-item-has-children");
+            showSubMenu(hasChildren);
+        }
+    });
+    goBack.addEventListener("click", () => {
+        hideSubMenu();
+    });
+    menuTrigger.addEventListener("click", () => {
+        toggleMenu();
+    });
+    closeMenu.addEventListener("click", () => {
+        toggleMenu();
+    });
+    document.querySelector(".menu-overlay").addEventListener("click", () => {
+        toggleMenu();
+    });
+    function toggleMenu() {
+        menu.classList.toggle("active");
+        document.querySelector(".menu-overlay").classList.toggle("active");
+    }
+    function showSubMenu(hasChildren) {
+        subMenu = hasChildren.querySelector(".sub-menu");
+        subMenu.classList.add("active");
+        subMenu.style.animation = "slideLeft 0.5s ease forwards";
+        const menuTitle =
+            hasChildren.querySelector(".chevronDown").parentNode.childNodes[0].textContent;
+        menu.querySelector(".current-menu-title").innerHTML = menuTitle;
+        menu.querySelector(".mobile-menu-head").classList.add("active");
+    }
+
+    function hideSubMenu() {
+        subMenu.style.animation = "slideRight 0.5s ease forwards";
+        setTimeout(() => {
+            subMenu.classList.remove("active");
+        }, 300);
+        menu.querySelector(".current-menu-title").innerHTML = "";
+        menu.querySelector(".mobile-menu-head").classList.remove("active");
+    }
+
+    window.onresize = function () {
+        if (this.innerWidth > 991) {
+            if (menu.classList.contains("active")) {
+                toggleMenu();
+            }
+        }
+    };
+
+</script>
+
+<script defer>
+    function updateLogoWidth() {
+        // Select elements
+        const ctaElement = document.querySelector('.item-right');
+        const logoElement = document.querySelector('.item-left');
+
+        // Get the computed width of CTA
+        const ctaWidth = ctaElement.getBoundingClientRect().width;
+    
+
+        // Apply the width to logo element
+        if (ctaWidth > 0) {
+            logoElement.style.width = `${ctaWidth}px`;
+        }
+    }
+
+    // Run on page load with a slight delay to ensure styles are applied
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(updateLogoWidth, 100);
+    });
+
+    // Run whenever window is resized
+    window.addEventListener('resize', updateLogoWidth);
+</script>
+</body>
+
+</html>

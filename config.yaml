@@ -1,0 +1,56 @@
+projectName: IAM Terminology Essentials
+jsonFilePath: ./input.json
+baseUrl: https://supertokens.com
+portalHeading: IAM Terminology Essentials Portal
+portalDescription: >-
+  Empower your authentication infrastructure with IAM Terminology Essentials.
+  Build fast, maintain control, and reduce costs.
+portalTitle: IAM Terminology Essentials - Your Authentication Solution
+searchPlaceholder: Search IAM Terminology Essentials...
+useAlphabetsCategory: true
+homeLink: https://supertokens.com/
+logoLink: https://supertokens.com/
+ctaText: Get Started
+aboutLink: https://supertokens.com/about
+productsLink: https://supertokens.com/products
+logoImgUrl: >-
+  https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&w=256&q=75
+ctaLink: https://supertokens.com/get-started
+copyrightText: © 2023 SuperTokens. All rights reserved.
+faviconUrl: https://supertokens.com/favicon.ico
+googleTagManagerId: ''
+pagesTitle:
+  prefix: ''
+  suffix: ''
+categoryPagesTitle:
+  prefix: ''
+  suffix: ''
+templateRoot:
+  - ./templates
+  - ./templates
+homeTemplatePath: ./templates/homePageTemplate.ejs
+categoryTemplatePath: ./templates/categoryTemplate.ejs
+pageTemplatePath: ./templates/pagesTemplate.ejs
+outputDir: ./output
+socialLinks:
+  - platform: GitHub
+    url: https://github.com/supertokens/supertokens-core
+  - platform: Y Combinator
+    url: https://www.ycombinator.com/companies/supertokens
+theme:
+  primaryColor: '#ff5733'
+  secondaryColor: '#33c3ff'
+  backgroundColor: '#ffffff'
+  textColor: '#333333'
+  accentColor: '#e91e63'
+fonts:
+  - family: Roboto
+    weights:
+      - 400
+      - 500
+      - 600
+  - family: Lato
+    weights:
+      - 500
+      - 600
+      - 700

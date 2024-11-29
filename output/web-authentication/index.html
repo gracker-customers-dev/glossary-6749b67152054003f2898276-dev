@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        
+            Web Authentication
+                
+    </title>
+    <meta name="description" content="Web Authentication is a process that verifies the identity of a user or device in a web environment.">
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+    IAM Terminology Essentials - Your Authentication Solution
+</title>
+<link rel="icon" type="image/x-icon" href="https://supertokens.com/favicon.ico">
+
+    
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@500;600;700&display=swap"
+            rel="stylesheet">
+        
+            
+                <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.gracker.ai/style.min.css">
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+                <!-- and it's easy to individually load additional languages -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
+                <script>hljs.highlightAll();</script>
+
+                <style>
+                    :root {
+                        --primary-color: #ff5733;
+                        --secondary-color: #33c3ff;
+                        --background-color: #ffffff;
+                        --text-color: #333333;
+                        --accent-color: #e91e63;
+                        --font-primary: Roboto, Arial, sans-serif;
+                        --font-secondary: Lato, Arial, sans-serif;
+                    }
+                </style>
+</head>
+
+<body>
+    <header class="header group" id="main-header">
+    <div class="navigation">
+        <div class="header-item item-left">
+            <div class="logo"><a href="https://supertokens.com/"><img src="https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&amp;w=256&amp;q=75" 
+                onerror="this.onerror=null; this.src='https://cdn.gracker.ai/logo-placeholder-image.png'" 
+                alt="Primary Image"  height="40" /></a></div>
+        </div>
+
+        <div class="header-item item-center">
+            <div class="menu-overlay"></div>
+            <nav class="menu">
+                <div class="mobile-menu-head">
+                    <div class="go-back">
+                        &lt;
+                    </div>
+                    <div class="current-menu-title"></div>
+                    <div class="mobile-menu-close">&times;</div>
+                </div>
+                <ul class="menu-main">
+                    <li>
+                        <a href="https://supertokens.com/">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://supertokens.com/get-started" class="btn btn-primary show-in-mobile demo-btn">
+                            Get Started
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-item item-right nav-right">
+            <a href="https://supertokens.com/get-started" class="btn btn-ghost dark hide-in-mobile">
+                Get Started
+            </a>
+            <div class="mobile-menu-trigger">
+                <span></span>
+            </div>
+        </div>
+
+
+
+    </div>
+</header>
+        <main class="homeMainInner">
+            <section class="hero">
+                <div>
+                    <ul class="breadcrumb">
+                        <li><a href="/">Home</a></li>
+                        <li class="seprator">/</li>
+                
+                        
+                
+                        <li>Web Authentication</li>
+                    </ul>
+                    <div class="title header">
+                        <h1>Web Authentication</h1>
+                    </div>
+                    <p>November 29, 2024</p>
+                </div>
+            </section>
+            <section class="category-section page-content">
+                <div class="content has-space">
+                    <p>
+                        Web Authentication is a process that verifies the identity of a user or device in a web environment.
+                    </p>
+                    
+                        <h2>Description</h2>
+
+                            
+                        <p>Web Authentication, often abbreviated as WebAuthn, is a protocol and standard developed by the World Wide Web Consortium (W3C) and the FIDO Alliance. It is designed to provide secure, passwordless authentication for web applications. WebAuthn allows users to authenticate using biometrics, hardware security keys, or other devices that support strong cryptographic authentication. This approach reduces the reliance on traditional passwords, which are vulnerable to phishing, reuse, and other security issues. By leveraging public key cryptography, WebAuthn ensures that user credentials are unique to each website, significantly enhancing security. During the authentication process, a user registers a device (such as a fingerprint scanner or a security key) with a web service. When authentication is required, the device generates a cryptographic signature that the web service can verify. This method not only improves security but also simplifies the authentication process for users, as it often requires just a simple interaction, like pressing a button or scanning a fingerprint.</p>
+
+                            
+                        <h2>Examples</h2>
+
+                            
+                        <ul>
+<li>Using a YubiKey to authenticate on a website without entering a password.</li>
+<li>Logging into a web application using a fingerprint scanner on a smartphone.</li>
+</ul>
+
+                            
+                        <h2>Additional Information</h2>
+
+                            
+                        <ul>
+<li>WebAuthn is part of the FIDO2 standard, which also includes the Client to Authenticator Protocol (CTAP).</li>
+<li>WebAuthn is supported by most modern web browsers, including Chrome, Firefox, Safari, and Edge.</li>
+</ul>
+
+                            
+                        <h2>References</h2>
+
+                            
+                        <ul>
+<li><a href="https://auth0.com/blog/introduction-to-web-authentication/">WebAuthn Introduction - Learn about Web Authentication W3C Spec</a></li>
+<li><a href="https://developer.chrome.com/blog/webauthn/">Enabling Strong Authentication with WebAuthn</a></li>
+<li><a href="https://www.freecodecamp.org/news/intro-to-webauthn">What is WebAuthn? How to Authenticate Users Without a Password</a></li>
+<li><a href="https://hackernoon.com/web-auth-standard-guide-to-web-authentication-api-chy3yh0">Web Auth Standard: Guide to Web Authentication API  | HackerNoon</a></li>
+<li><a href="https://dev.to/carrie_luo1/the-ultimate-guide-to-understanding-web-application-authentication-8f1">The Ultimate Guide to Understanding Web Application Authentication</a></li>
+<li><a href="https://weblog.west-wind.com/posts/2023/May/17/Implementing-TwoFactor-Auth-using-an-Authenticator-app-in-ASPNET">Implementing Two-Factor Auth using an Authenticator App in ASP.NET</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API">Web Authentication API - Web APIs | MDN</a></li>
+<li><a href="https://auth0.com/blog/web-authentication-webauthn-overview-demo-tool/">Launching Web Authentication WebAuthn.me site + Overview &amp; Credential + Login Demo</a></li>
+<li><a href="https://blog.passwordless.id/the-future-of-web-authentication">The future of web authentication using touch / face / PIN is there!</a></li>
+<li><a href="https://testdriven.io/blog/web-authentication-methods/">Web Authentication Methods Compared</a></li>
+<li><a href="https://webauthn.me/introduction">An introduction to WebAuthn</a></li>
+<li><a href="https://www.authgear.com/post/web-application-authentication-guide">Web App Authentication: How It Works and How to Implement It</a></li>
+<li><a href="https://medium.com/@mduffy_48393/webauthn-unhackable-authentication-7441d0b364b9">WebAuthn+ ~ Unhackable Authentication</a></li>
+<li><a href="https://dev.to/megaconfidence/what-is-webauthn-a-developers-guide-to-webauthn-235e">What Is WebAuthN: A Developer&#39;s Guide To WebAuthN</a></li>
+<li><a href="https://fusionauth.io/blog/2022/11/01/authenticators-ceremonies-webauthn-oh-my">Authenticators, Ceremonies, and WebAuthn, oh my!</a></li>
+<li><a href="https://www.freecodecamp.org/news/authenticate-users-node-app">How to Authenticate Users in Your Node App with Cookies, Sessions, and Passport.js</a></li>
+<li><a href="https://www.smashingmagazine.com/2023/01/authentication-websites-banking-analogy/">Understanding Authentication In Websites: A Banking Analogy — Smashing Magazine</a></li>
+<li><a href="https://blog.risingstack.com/web-authentication-methods-explained/">Web Authentication Methods Explained</a></li>
+<li><a href="https://goteleport.com/blog/how-passwordless-works/">How Passwordless Works</a></li>
+<li><a href="https://www.freecodecamp.org/news/passkey-authentication-web-authentication-api">How to Implement Passkey Authentication with the Web Authentication API</a></li>
+<li><a href="https://lightrains.com/blogs/webauthn-web-authentication">WebAuthn: The Future of Web Authentication</a></li>
+<li><a href="https://dev.to/rohitjmathew/how-does-face-id-or-touch-id-work-intro-to-webauthn-18m3">How Does Face ID or Touch ID Work? Intro to WebAuthn</a></li>
+<li><a href="https://duo.com/blog/web-authentication-what-it-is-and-what-it-means-for-passwords">What Is Web Authentication and How Does It Work? - Duo Blog</a></li>
+<li><a href="https://blog.bitsrc.io/web-authentication-cookies-vs-tokens-8e47d5a96d34?gi=b536069017d2">Web Authentication: Cookies vs. Tokens</a></li>
+<li><a href="https://duo.com/blog/guide-to-web-authentication">Guide to Web Authentication: A New Resource for WebAuthn Info</a></li>
+</ul>
+
+                            
+                </div>
+            </section>
+
+            
+
+
+        </main>
+        <script>
+            // Get all h2 elements
+            const h2Elements = document.querySelectorAll('h2');
+
+            // Loop through the h2 elements and find the one with the text 'References'
+            h2Elements.forEach(h2 => {
+                if (h2.textContent.trim() === 'References') {
+                    // Get the next sibling element, which should be the ul
+                    const nextElement = h2.nextElementSibling;
+
+                    // Check if the next element is a ul
+                    if (nextElement && nextElement.tagName === 'UL') {
+                        // Get all anchor tags inside the ul and add target="_blank"
+                        const anchorTags = nextElement.querySelectorAll('a');
+                        anchorTags.forEach(anchor => {
+                            anchor.setAttribute('target', '_blank');
+                        });
+                    }
+                }
+            });
+        </script>
+        <footer>
+    <div>
+        <div class="left-block">
+            <div class="logo">
+                <a href="https://supertokens.com/">
+                  <img src="https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&amp;w=256&amp;q=75" 
+                       onerror="this.onerror=null; this.src='https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png'" 
+                       alt="Primary Image" 
+                       height="40" />
+                </a>
+              </div>
+            <div class="copyright">
+                © 2023 SuperTokens. All rights reserved.
+            </div>
+        </div>
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <ul>
+                    
+                        
+                            <li>
+                                <a href="https://github.com/supertokens/supertokens-core" target="_blank" rel="noopener noreferrer">
+                                    GitHub
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.ycombinator.com/companies/supertokens" target="_blank" rel="noopener noreferrer">
+                                    Y Combinator
+                                </a>
+                            </li>
+                            
+                                
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+<script>
+    let scrollpos = window.scrollY;
+    const header = document.querySelector("header");
+    const navItems = document.querySelectorAll("nav .menu-item-has-children>a"); // Adjust the selector based on your menu items
+    const navSubItems = document.querySelectorAll("nav .menu-item-has-children .sub-menu.mega-menu"); // Adjust the selector based on your menu items
+
+    const add_class_on_scroll = () => header.classList.add("scroll");
+    const remove_class_on_scroll = () => header.classList.remove("scroll");
+
+    const add_class_on_hover = () => header.classList.add("hover");
+    const remove_class_on_hover = () => header.classList.remove("hover");
+
+    const check_scroll_position = () => {
+        scrollpos = window.scrollY;
+        if (scrollpos >= 80) {
+            add_class_on_scroll();
+        } else {
+            remove_class_on_scroll();
+        }
+    };
+
+    // Add or remove class based on scroll position
+    window.addEventListener("scroll", check_scroll_position);
+
+    // Add class on hover
+    navItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    // navItems.forEach((item) => {
+    // 	item.addEventListener("click", add_class_on_hover);
+    // });
+
+    // Add class on hover
+    navSubItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    navSubItems.forEach((item) => {
+        item.addEventListener("click", add_class_on_hover);
+    });
+    // Initial check when the page loads
+    document.addEventListener("DOMContentLoaded", check_scroll_position);
+    window.addEventListener("scroll", check_scroll_position);
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const dropdownButton = document.getElementById("dropdown-button");
+
+        if (dropdownButton) {
+            dropdownButton.addEventListener("click", () => {
+                document.body.classList.toggle("dropdown-open");
+            });
+        }
+    });
+
+    const menu = document.querySelector(".menu");
+    const menuMain = menu.querySelector(".menu-main");
+    const goBack = menu.querySelector(".go-back");
+    const menuTrigger = document.querySelector(".mobile-menu-trigger");
+    const closeMenu = menu.querySelector(".mobile-menu-close");
+    let subMenu;
+    menuMain.addEventListener("click", (e) => {
+        if (!menu.classList.contains("active")) {
+            return;
+        }
+        if (e.target.closest(".menu-item-has-children")) {
+            const hasChildren = e.target.closest(".menu-item-has-children");
+            showSubMenu(hasChildren);
+        }
+    });
+    goBack.addEventListener("click", () => {
+        hideSubMenu();
+    });
+    menuTrigger.addEventListener("click", () => {
+        toggleMenu();
+    });
+    closeMenu.addEventListener("click", () => {
+        toggleMenu();
+    });
+    document.querySelector(".menu-overlay").addEventListener("click", () => {
+        toggleMenu();
+    });
+    function toggleMenu() {
+        menu.classList.toggle("active");
+        document.querySelector(".menu-overlay").classList.toggle("active");
+    }
+    function showSubMenu(hasChildren) {
+        subMenu = hasChildren.querySelector(".sub-menu");
+        subMenu.classList.add("active");
+        subMenu.style.animation = "slideLeft 0.5s ease forwards";
+        const menuTitle =
+            hasChildren.querySelector(".chevronDown").parentNode.childNodes[0].textContent;
+        menu.querySelector(".current-menu-title").innerHTML = menuTitle;
+        menu.querySelector(".mobile-menu-head").classList.add("active");
+    }
+
+    function hideSubMenu() {
+        subMenu.style.animation = "slideRight 0.5s ease forwards";
+        setTimeout(() => {
+            subMenu.classList.remove("active");
+        }, 300);
+        menu.querySelector(".current-menu-title").innerHTML = "";
+        menu.querySelector(".mobile-menu-head").classList.remove("active");
+    }
+
+    window.onresize = function () {
+        if (this.innerWidth > 991) {
+            if (menu.classList.contains("active")) {
+                toggleMenu();
+            }
+        }
+    };
+
+</script>
+
+<script defer>
+    function updateLogoWidth() {
+        // Select elements
+        const ctaElement = document.querySelector('.item-right');
+        const logoElement = document.querySelector('.item-left');
+
+        // Get the computed width of CTA
+        const ctaWidth = ctaElement.getBoundingClientRect().width;
+    
+
+        // Apply the width to logo element
+        if (ctaWidth > 0) {
+            logoElement.style.width = `${ctaWidth}px`;
+        }
+    }
+
+    // Run on page load with a slight delay to ensure styles are applied
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(updateLogoWidth, 100);
+    });
+
+    // Run whenever window is resized
+    window.addEventListener('resize', updateLogoWidth);
+</script>
+</body>
+
+</html>

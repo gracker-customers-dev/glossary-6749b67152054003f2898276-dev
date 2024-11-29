@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        
+            Attribute-Based Access
+                
+    </title>
+    <meta name="description" content="A model of access control that uses attributes to determine access rights to resources.">
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+    IAM Terminology Essentials - Your Authentication Solution
+</title>
+<link rel="icon" type="image/x-icon" href="https://supertokens.com/favicon.ico">
+
+    
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@500;600;700&display=swap"
+            rel="stylesheet">
+        
+            
+                <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.gracker.ai/style.min.css">
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+                <!-- and it's easy to individually load additional languages -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
+                <script>hljs.highlightAll();</script>
+
+                <style>
+                    :root {
+                        --primary-color: #ff5733;
+                        --secondary-color: #33c3ff;
+                        --background-color: #ffffff;
+                        --text-color: #333333;
+                        --accent-color: #e91e63;
+                        --font-primary: Roboto, Arial, sans-serif;
+                        --font-secondary: Lato, Arial, sans-serif;
+                    }
+                </style>
+</head>
+
+<body>
+    <header class="header group" id="main-header">
+    <div class="navigation">
+        <div class="header-item item-left">
+            <div class="logo"><a href="https://supertokens.com/"><img src="https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&amp;w=256&amp;q=75" 
+                onerror="this.onerror=null; this.src='https://cdn.gracker.ai/logo-placeholder-image.png'" 
+                alt="Primary Image"  height="40" /></a></div>
+        </div>
+
+        <div class="header-item item-center">
+            <div class="menu-overlay"></div>
+            <nav class="menu">
+                <div class="mobile-menu-head">
+                    <div class="go-back">
+                        &lt;
+                    </div>
+                    <div class="current-menu-title"></div>
+                    <div class="mobile-menu-close">&times;</div>
+                </div>
+                <ul class="menu-main">
+                    <li>
+                        <a href="https://supertokens.com/">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://supertokens.com/get-started" class="btn btn-primary show-in-mobile demo-btn">
+                            Get Started
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-item item-right nav-right">
+            <a href="https://supertokens.com/get-started" class="btn btn-ghost dark hide-in-mobile">
+                Get Started
+            </a>
+            <div class="mobile-menu-trigger">
+                <span></span>
+            </div>
+        </div>
+
+
+
+    </div>
+</header>
+        <main class="homeMainInner">
+            <section class="hero">
+                <div>
+                    <ul class="breadcrumb">
+                        <li><a href="/">Home</a></li>
+                        <li class="seprator">/</li>
+                
+                        
+                
+                        <li>Attribute-Based Access</li>
+                    </ul>
+                    <div class="title header">
+                        <h1>Attribute-Based Access</h1>
+                    </div>
+                    <p>November 29, 2024</p>
+                </div>
+            </section>
+            <section class="category-section page-content">
+                <div class="content has-space">
+                    <p>
+                        A model of access control that uses attributes to determine access rights to resources.
+                    </p>
+                    
+                        <h2>Description</h2>
+
+                            
+                        <p>Attribute-Based Access Control (ABAC) is an approach to access management that relies on evaluating attributes associated with users, resources, and the environment to make access decisions. Unlike traditional access control models, which might focus on roles (Role-Based Access Control) or specific identifiers, ABAC allows for more granular and dynamic control by considering a wide range of attributes. These attributes can be user-related (such as department, role, or clearance level), resource-related (such as classification or owner), and environmental (such as time of day or location). This flexibility enables organizations to implement complex and nuanced access policies that can adapt to changing conditions and requirements. ABAC is particularly useful in environments where access needs are dynamic and context-dependent, offering a scalable and fine-tuned method for enforcing security policies.</p>
+
+                            
+                        <h2>Examples</h2>
+
+                            
+                        <ul>
+<li>A healthcare system uses ABAC to grant access to patient records based on the user&#39;s role, department, and the patient&#39;s consent status.</li>
+<li>An online retail platform uses ABAC to provide discounts to users based on their purchase history, location, and membership status.</li>
+</ul>
+
+                            
+                        <h2>Additional Information</h2>
+
+                            
+                        <ul>
+<li>ABAC is often used in conjunction with other access control models to enhance security.</li>
+<li>It can be implemented through policies that define which combinations of attributes allow or deny access to specific resources.</li>
+</ul>
+
+                            
+                        <h2>References</h2>
+
+                            
+                        <ul>
+<li><a href="https://docs.google.com/document/d/1GP5tcN0oK9Zewed9h5pLiM2BowWPhtgFUGXEDKjeGGo/edit">Attribute-Based Access Control</a></li>
+<li><a href="https://csrc.nist.gov/Projects/Attribute-Based-Access-Control">Attribute Based Access Control | CSRC | CSRC</a></li>
+<li><a href="https://www.permit.io/blog/what-is-attribute-based-access-control">What Is Attribute-Based Access Control (ABAC)?</a></li>
+<li><a href="https://iiw.idcommons.net/ABAC_%E2%80%93_Attributed_Based_Access_Control">ABAC – Attributed Based Access Control</a></li>
+<li><a href="https://csrc.nist.gov/glossary/term/abac">ABAC - Glossary | CSRC</a></li>
+<li><a href="https://ieeexplore.ieee.org/document/7029297/">Attribute based access control definition and considerations (NIST special publication 800-162) and attribute assurance</a></li>
+<li><a href="https://www.nist.gov/publications/guide-attribute-based-access-control-abac-definition-and-considerations">Guide to Attribute Based Access Control (ABAC) Definition and Considerations</a></li>
+<li><a href="https://www.openldap.org/faq/data/cache/429.html">OpenLDAP Faq-O-Matic: How do I grant access to a subset of attributes?</a></li>
+<li><a href="https://csrc.nist.gov/publications/detail/sp/800-162/final">NIST Special Publication (SP) 800-162, Guide to Attribute Based Access Control (ABAC) Definition and Considerations</a></li>
+<li><a href="https://csrc.nist.gov/publications/detail/book/2017/attribute-based-access-control">Attribute Based Access Control</a></li>
+<li><a href="https://csrc.nist.gov/publications/detail/building-block/2015/04/01/attribute-based-access-control/final">[Project Description] Attribute Based Access Control</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Attribute-based_access_control">Attribute-based access control</a></li>
+<li><a href="https://tldp.org/HOWTO/LDAP-HOWTO/accesscontrol.html">Access Control Examples</a></li>
+<li><a href="https://csrc.nist.gov/publications/detail/sp/1800-3/archive/2015-09-29">NIST Special Publication (SP) 1800-3 (Draft), Attribute Based Access Control</a></li>
+<li><a href="https://developer.okta.com/books/api-security/authz/attribute-based/">Attribute-Based Access Control - Authorization</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/new-for-identity-federation-use-employee-attributes-for-access-control-in-aws/">New for Identity Federation – Use Employee Attributes for Access Control in AWS | Amazon Web Services</a></li>
+<li><a href="https://csrc.nist.gov/glossary/term/attribute_based_access_control">attribute-based access control (ABAC) - Glossary</a></li>
+<li><a href="https://axiomatics.com/blog/intro-to-attribute-based-access-control-abac">Intro to Attribute Based Access Control (ABAC)</a></li>
+<li><a href="https://csrc.nist.gov/News/2018/NIST-Researchers-Publish-Book-on-ABAC">NIST Researchers Publish Book on Attribute-Based Access Control | CSRC</a></li>
+<li><a href="https://csrc.nist.gov/publications/detail/sp/800-205/final">NIST Special Publication (SP) 800-205, Attribute Considerations for Access Control Systems</a></li>
+<li><a href="https://csrc.nist.gov/publications/detail/sp/800-162/archive/2019-02-25">NIST Special Publication (SP) 800-162 (Withdrawn), Guide to Attribute Based Access Control (ABAC) Definition and Considerations</a></li>
+<li><a href="https://www.permit.io/blog/what-is-abac">What is ABAC? Implementation Methods &amp; Code Examples</a></li>
+<li><a href="https://cyral.com/blog/attribute-based-access-control-in-databases/">Attribute Based Access Control in Databases - ABAC Security</a></li>
+<li><a href="https://www.pingidentity.com/en/resources/blog/post/rbac-vs-abac.html">Role-based Access Control (RBAC) vs. Attribute-based Access Control (ABAC) : What&#39;s the Difference?</a></li>
+<li><a href="https://medium.com/@moep/keeping-your-sanity-while-designing-openldap-acls-9132068ed55c">Keeping your sanity while designing OpenLDAP ACLs - Ingo Bente - Medium</a></li>
+</ul>
+
+                            
+                </div>
+            </section>
+
+            
+
+
+        </main>
+        <script>
+            // Get all h2 elements
+            const h2Elements = document.querySelectorAll('h2');
+
+            // Loop through the h2 elements and find the one with the text 'References'
+            h2Elements.forEach(h2 => {
+                if (h2.textContent.trim() === 'References') {
+                    // Get the next sibling element, which should be the ul
+                    const nextElement = h2.nextElementSibling;
+
+                    // Check if the next element is a ul
+                    if (nextElement && nextElement.tagName === 'UL') {
+                        // Get all anchor tags inside the ul and add target="_blank"
+                        const anchorTags = nextElement.querySelectorAll('a');
+                        anchorTags.forEach(anchor => {
+                            anchor.setAttribute('target', '_blank');
+                        });
+                    }
+                }
+            });
+        </script>
+        <footer>
+    <div>
+        <div class="left-block">
+            <div class="logo">
+                <a href="https://supertokens.com/">
+                  <img src="https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&amp;w=256&amp;q=75" 
+                       onerror="this.onerror=null; this.src='https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png'" 
+                       alt="Primary Image" 
+                       height="40" />
+                </a>
+              </div>
+            <div class="copyright">
+                © 2023 SuperTokens. All rights reserved.
+            </div>
+        </div>
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <ul>
+                    
+                        
+                            <li>
+                                <a href="https://github.com/supertokens/supertokens-core" target="_blank" rel="noopener noreferrer">
+                                    GitHub
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.ycombinator.com/companies/supertokens" target="_blank" rel="noopener noreferrer">
+                                    Y Combinator
+                                </a>
+                            </li>
+                            
+                                
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+<script>
+    let scrollpos = window.scrollY;
+    const header = document.querySelector("header");
+    const navItems = document.querySelectorAll("nav .menu-item-has-children>a"); // Adjust the selector based on your menu items
+    const navSubItems = document.querySelectorAll("nav .menu-item-has-children .sub-menu.mega-menu"); // Adjust the selector based on your menu items
+
+    const add_class_on_scroll = () => header.classList.add("scroll");
+    const remove_class_on_scroll = () => header.classList.remove("scroll");
+
+    const add_class_on_hover = () => header.classList.add("hover");
+    const remove_class_on_hover = () => header.classList.remove("hover");
+
+    const check_scroll_position = () => {
+        scrollpos = window.scrollY;
+        if (scrollpos >= 80) {
+            add_class_on_scroll();
+        } else {
+            remove_class_on_scroll();
+        }
+    };
+
+    // Add or remove class based on scroll position
+    window.addEventListener("scroll", check_scroll_position);
+
+    // Add class on hover
+    navItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    // navItems.forEach((item) => {
+    // 	item.addEventListener("click", add_class_on_hover);
+    // });
+
+    // Add class on hover
+    navSubItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    navSubItems.forEach((item) => {
+        item.addEventListener("click", add_class_on_hover);
+    });
+    // Initial check when the page loads
+    document.addEventListener("DOMContentLoaded", check_scroll_position);
+    window.addEventListener("scroll", check_scroll_position);
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const dropdownButton = document.getElementById("dropdown-button");
+
+        if (dropdownButton) {
+            dropdownButton.addEventListener("click", () => {
+                document.body.classList.toggle("dropdown-open");
+            });
+        }
+    });
+
+    const menu = document.querySelector(".menu");
+    const menuMain = menu.querySelector(".menu-main");
+    const goBack = menu.querySelector(".go-back");
+    const menuTrigger = document.querySelector(".mobile-menu-trigger");
+    const closeMenu = menu.querySelector(".mobile-menu-close");
+    let subMenu;
+    menuMain.addEventListener("click", (e) => {
+        if (!menu.classList.contains("active")) {
+            return;
+        }
+        if (e.target.closest(".menu-item-has-children")) {
+            const hasChildren = e.target.closest(".menu-item-has-children");
+            showSubMenu(hasChildren);
+        }
+    });
+    goBack.addEventListener("click", () => {
+        hideSubMenu();
+    });
+    menuTrigger.addEventListener("click", () => {
+        toggleMenu();
+    });
+    closeMenu.addEventListener("click", () => {
+        toggleMenu();
+    });
+    document.querySelector(".menu-overlay").addEventListener("click", () => {
+        toggleMenu();
+    });
+    function toggleMenu() {
+        menu.classList.toggle("active");
+        document.querySelector(".menu-overlay").classList.toggle("active");
+    }
+    function showSubMenu(hasChildren) {
+        subMenu = hasChildren.querySelector(".sub-menu");
+        subMenu.classList.add("active");
+        subMenu.style.animation = "slideLeft 0.5s ease forwards";
+        const menuTitle =
+            hasChildren.querySelector(".chevronDown").parentNode.childNodes[0].textContent;
+        menu.querySelector(".current-menu-title").innerHTML = menuTitle;
+        menu.querySelector(".mobile-menu-head").classList.add("active");
+    }
+
+    function hideSubMenu() {
+        subMenu.style.animation = "slideRight 0.5s ease forwards";
+        setTimeout(() => {
+            subMenu.classList.remove("active");
+        }, 300);
+        menu.querySelector(".current-menu-title").innerHTML = "";
+        menu.querySelector(".mobile-menu-head").classList.remove("active");
+    }
+
+    window.onresize = function () {
+        if (this.innerWidth > 991) {
+            if (menu.classList.contains("active")) {
+                toggleMenu();
+            }
+        }
+    };
+
+</script>
+
+<script defer>
+    function updateLogoWidth() {
+        // Select elements
+        const ctaElement = document.querySelector('.item-right');
+        const logoElement = document.querySelector('.item-left');
+
+        // Get the computed width of CTA
+        const ctaWidth = ctaElement.getBoundingClientRect().width;
+    
+
+        // Apply the width to logo element
+        if (ctaWidth > 0) {
+            logoElement.style.width = `${ctaWidth}px`;
+        }
+    }
+
+    // Run on page load with a slight delay to ensure styles are applied
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(updateLogoWidth, 100);
+    });
+
+    // Run whenever window is resized
+    window.addEventListener('resize', updateLogoWidth);
+</script>
+</body>
+
+</html>

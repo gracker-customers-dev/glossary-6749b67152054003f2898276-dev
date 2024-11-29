@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        
+            Dynamic Policy
+                
+    </title>
+    <meta name="description" content="A policy that adapts its permissions based on specific conditions or contexts.">
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+    IAM Terminology Essentials - Your Authentication Solution
+</title>
+<link rel="icon" type="image/x-icon" href="https://supertokens.com/favicon.ico">
+
+    
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@500;600;700&display=swap"
+            rel="stylesheet">
+        
+            
+                <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.gracker.ai/style.min.css">
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+                <!-- and it's easy to individually load additional languages -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
+                <script>hljs.highlightAll();</script>
+
+                <style>
+                    :root {
+                        --primary-color: #ff5733;
+                        --secondary-color: #33c3ff;
+                        --background-color: #ffffff;
+                        --text-color: #333333;
+                        --accent-color: #e91e63;
+                        --font-primary: Roboto, Arial, sans-serif;
+                        --font-secondary: Lato, Arial, sans-serif;
+                    }
+                </style>
+</head>
+
+<body>
+    <header class="header group" id="main-header">
+    <div class="navigation">
+        <div class="header-item item-left">
+            <div class="logo"><a href="https://supertokens.com/"><img src="https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&amp;w=256&amp;q=75" 
+                onerror="this.onerror=null; this.src='https://cdn.gracker.ai/logo-placeholder-image.png'" 
+                alt="Primary Image"  height="40" /></a></div>
+        </div>
+
+        <div class="header-item item-center">
+            <div class="menu-overlay"></div>
+            <nav class="menu">
+                <div class="mobile-menu-head">
+                    <div class="go-back">
+                        &lt;
+                    </div>
+                    <div class="current-menu-title"></div>
+                    <div class="mobile-menu-close">&times;</div>
+                </div>
+                <ul class="menu-main">
+                    <li>
+                        <a href="https://supertokens.com/">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://supertokens.com/get-started" class="btn btn-primary show-in-mobile demo-btn">
+                            Get Started
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-item item-right nav-right">
+            <a href="https://supertokens.com/get-started" class="btn btn-ghost dark hide-in-mobile">
+                Get Started
+            </a>
+            <div class="mobile-menu-trigger">
+                <span></span>
+            </div>
+        </div>
+
+
+
+    </div>
+</header>
+        <main class="homeMainInner">
+            <section class="hero">
+                <div>
+                    <ul class="breadcrumb">
+                        <li><a href="/">Home</a></li>
+                        <li class="seprator">/</li>
+                
+                        
+                
+                        <li>Dynamic Policy</li>
+                    </ul>
+                    <div class="title header">
+                        <h1>Dynamic Policy</h1>
+                    </div>
+                    <p>November 29, 2024</p>
+                </div>
+            </section>
+            <section class="category-section page-content">
+                <div class="content has-space">
+                    <p>
+                        A policy that adapts its permissions based on specific conditions or contexts.
+                    </p>
+                    
+                        <h2>Description</h2>
+
+                            
+                        <p>In the context of Identity and Access Management (IAM), a dynamic policy refers to a set of rules that can change its behavior and permissions based on certain criteria or runtime context. Unlike static policies, which have fixed conditions and permissions, dynamic policies allow for more flexible and context-aware access control. This adaptability is crucial in environments where access needs can change rapidly depending on the scenario, such as in cloud computing or multi-tenant applications. Dynamic policies often leverage attributes such as user roles, location, time of access, or device type to make decisions. They are implemented using tools like policy engines that evaluate these attributes at the time of access request. This approach enhances security by ensuring that permissions are granted in a precise manner, reducing the risk of over-permission and unauthorized access.</p>
+
+                            
+                        <h2>Examples</h2>
+
+                            
+                        <ul>
+<li>A policy that grants access to a document only during business hours.</li>
+<li>A policy that allows access to resources only if the request comes from a corporate network.</li>
+</ul>
+
+                            
+                        <h2>Additional Information</h2>
+
+                            
+                        <ul>
+<li>Dynamic policies are often used in Attribute-Based Access Control (ABAC) systems.</li>
+<li>They can be integrated with real-time data sources to make instantaneous access decisions.</li>
+</ul>
+
+                            
+                        <h2>References</h2>
+
+                            
+                        <ul>
+<li><a href="https://www.atlantic.com/htmly/2021/10/dynamic-port-configuration-in-aruba-os-cx-switches">Dynamic port configuration in Aruba OS-CX switches</a></li>
+<li><a href="https://adam.younglogic.com/2014/11/dynamic-policy-in-keystone/">Dynamic Policy in Keystone | Adam Young&#39;s Web Log</a></li>
+<li><a href="https://www.ervik.as/citrix-policies-best-practices-for-xenapp-6-5-and-xendesktop-5-6/">Citrix Policies Best Practices For XenApp 6.5 And XenDesktop 5.6 | Ervik.as</a></li>
+<li><a href="https://www.styra.com/blog/dynamic-policy-composition-for-opa/">Dynamic Policy Composition for OPA</a></li>
+<li><a href="https://documentation.meraki.com/General_Administration/Cross-Platform_Content/Adaptive_Policy/Adaptive_Policy_Overview">Adaptive Policy Overview</a></li>
+<li><a href="https://www.hashicorp.com/blog/why-we-need-dynamic-secrets">Why We Need Dynamic Secrets</a></li>
+<li><a href="https://techcommunity.microsoft.com/t5/blogs/blogarticleprintpage/blog-id/ITOpsTalkBlog/article-id/1561">BlogArticlePrintPage</a></li>
+<li><a href="https://www.admin-magazine.com/Archive/2018/47/Just-in-time-administration-in-Active-Directory">JIT AD Administration » ADMIN Magazine</a></li>
+<li><a href="https://www.cisco.com/c/en/us/support/docs/hyperconverged-infrastructure/hyperflex-hx-data-platform/215030-hyperflex-and-the-network-control-policy.html">HyperFlex and the Network Control Policy</a></li>
+<li><a href="https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-enterprise-policy-as-code-a-new-approach/ba-p/3607843">Azure Enterprise Policy as Code – A New Approach</a></li>
+<li><a href="https://www.virtuallanger.com/2018/04/10/notes-from-the-field-tips-for-using-storage-policy-based-management/">Notes from the Field – Tips for Using Storage Policy Based Management with vSAN</a></li>
+<li><a href="https://learn.microsoft.com/en-us/archive/blogs/teamdhcp/dhcp-policies-in-windows-server-2012">DHCP Policies in Windows Server 2012</a></li>
+<li><a href="https://live.paloaltonetworks.com/t5/general-articles/using-the-log-forwarding-built-in-actions-to-create-dynamic/ta-p/438762">Using the Log Forwarding Built-in Actions to Create Dynamic Address Group to Slow Down Attackers</a></li>
+<li><a href="https://codeburst.io/kubernetes-dynamic-admission-control-by-example-d8cc2912027c?gi=b369afdc4a9a">Kubernetes Dynamic Admission Control by Example</a></li>
+<li><a href="https://www.hashicorp.com/resources/a-vault-policy-masterclass">A Vault Policy Masterclass</a></li>
+<li><a href="https://aws.amazon.com/blogs/apn/isolating-saas-tenants-with-dynamically-generated-iam-policies/">Isolating SaaS Tenants with Dynamically Generated IAM Policies | Amazon Web Services</a></li>
+<li><a href="https://www.freecodecamp.org/news/how-to-use-open-policy-agent-and-apache-apisix-opa-plugin">How to Create Better Policy with Open Policy Agent and the Apache APISIX OPA Plugin</a></li>
+<li><a href="https://blogs.cisco.com/developer/policyascode01">Policy as Code and the Open Policy Agent</a></li>
+<li><a href="https://www.styra.com/blog/open-policy-agent-the-top-5-kubernetes-admission-control-policies/">Open Policy Agent: The Top 5 Kubernetes Admission Control Policies</a></li>
+<li><a href="https://dwmkerr.com/building-least-privilege-permissions-aws/">Building Least Privilege Policies with the AWS Policy Advisor - and a Demo with the Serverless Application Framework</a></li>
+<li><a href="https://thecloudblog.net/post/dynamic-admission-control-in-aks-with-azure-functions/">Dynamic Admission Control in AKS with Azure Functions</a></li>
+<li><a href="https://www.hashicorp.com/blog/codifying-vault-policies-and-configuration">Codifying Vault Policies and Configuration</a></li>
+<li><a href="http://www.nuvolisystems.com/the-beginners-guide-to-managing-the-nsx-distributed-firewall-with-security-policies/">The Beginner’s Guide to managing the NSX Distributed Firewall with Security Policies</a></li>
+<li><a href="https://blogs.vmware.com/virtualblocks/2017/01/16/understanding-storage-policy-based-management/">Understanding Storage Policy-Based Management</a></li>
+<li><a href="https://dzone.com/articles/10-best-practices-for-using-kubernetes-network-pol">10 Best Practices for Using Kubernetes Network Policies</a></li>
+</ul>
+
+                            
+                </div>
+            </section>
+
+            
+
+
+        </main>
+        <script>
+            // Get all h2 elements
+            const h2Elements = document.querySelectorAll('h2');
+
+            // Loop through the h2 elements and find the one with the text 'References'
+            h2Elements.forEach(h2 => {
+                if (h2.textContent.trim() === 'References') {
+                    // Get the next sibling element, which should be the ul
+                    const nextElement = h2.nextElementSibling;
+
+                    // Check if the next element is a ul
+                    if (nextElement && nextElement.tagName === 'UL') {
+                        // Get all anchor tags inside the ul and add target="_blank"
+                        const anchorTags = nextElement.querySelectorAll('a');
+                        anchorTags.forEach(anchor => {
+                            anchor.setAttribute('target', '_blank');
+                        });
+                    }
+                }
+            });
+        </script>
+        <footer>
+    <div>
+        <div class="left-block">
+            <div class="logo">
+                <a href="https://supertokens.com/">
+                  <img src="https://supertokens.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.f5eab5c3.png&amp;w=256&amp;q=75" 
+                       onerror="this.onerror=null; this.src='https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png'" 
+                       alt="Primary Image" 
+                       height="40" />
+                </a>
+              </div>
+            <div class="copyright">
+                © 2023 SuperTokens. All rights reserved.
+            </div>
+        </div>
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <ul>
+                    
+                        
+                            <li>
+                                <a href="https://github.com/supertokens/supertokens-core" target="_blank" rel="noopener noreferrer">
+                                    GitHub
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.ycombinator.com/companies/supertokens" target="_blank" rel="noopener noreferrer">
+                                    Y Combinator
+                                </a>
+                            </li>
+                            
+                                
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+<script>
+    let scrollpos = window.scrollY;
+    const header = document.querySelector("header");
+    const navItems = document.querySelectorAll("nav .menu-item-has-children>a"); // Adjust the selector based on your menu items
+    const navSubItems = document.querySelectorAll("nav .menu-item-has-children .sub-menu.mega-menu"); // Adjust the selector based on your menu items
+
+    const add_class_on_scroll = () => header.classList.add("scroll");
+    const remove_class_on_scroll = () => header.classList.remove("scroll");
+
+    const add_class_on_hover = () => header.classList.add("hover");
+    const remove_class_on_hover = () => header.classList.remove("hover");
+
+    const check_scroll_position = () => {
+        scrollpos = window.scrollY;
+        if (scrollpos >= 80) {
+            add_class_on_scroll();
+        } else {
+            remove_class_on_scroll();
+        }
+    };
+
+    // Add or remove class based on scroll position
+    window.addEventListener("scroll", check_scroll_position);
+
+    // Add class on hover
+    navItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    // navItems.forEach((item) => {
+    // 	item.addEventListener("click", add_class_on_hover);
+    // });
+
+    // Add class on hover
+    navSubItems.forEach((item) => {
+        item.addEventListener("mouseenter", add_class_on_hover);
+        item.addEventListener("mouseleave", remove_class_on_hover);
+    });
+
+    // Add class on click
+    navSubItems.forEach((item) => {
+        item.addEventListener("click", add_class_on_hover);
+    });
+    // Initial check when the page loads
+    document.addEventListener("DOMContentLoaded", check_scroll_position);
+    window.addEventListener("scroll", check_scroll_position);
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const dropdownButton = document.getElementById("dropdown-button");
+
+        if (dropdownButton) {
+            dropdownButton.addEventListener("click", () => {
+                document.body.classList.toggle("dropdown-open");
+            });
+        }
+    });
+
+    const menu = document.querySelector(".menu");
+    const menuMain = menu.querySelector(".menu-main");
+    const goBack = menu.querySelector(".go-back");
+    const menuTrigger = document.querySelector(".mobile-menu-trigger");
+    const closeMenu = menu.querySelector(".mobile-menu-close");
+    let subMenu;
+    menuMain.addEventListener("click", (e) => {
+        if (!menu.classList.contains("active")) {
+            return;
+        }
+        if (e.target.closest(".menu-item-has-children")) {
+            const hasChildren = e.target.closest(".menu-item-has-children");
+            showSubMenu(hasChildren);
+        }
+    });
+    goBack.addEventListener("click", () => {
+        hideSubMenu();
+    });
+    menuTrigger.addEventListener("click", () => {
+        toggleMenu();
+    });
+    closeMenu.addEventListener("click", () => {
+        toggleMenu();
+    });
+    document.querySelector(".menu-overlay").addEventListener("click", () => {
+        toggleMenu();
+    });
+    function toggleMenu() {
+        menu.classList.toggle("active");
+        document.querySelector(".menu-overlay").classList.toggle("active");
+    }
+    function showSubMenu(hasChildren) {
+        subMenu = hasChildren.querySelector(".sub-menu");
+        subMenu.classList.add("active");
+        subMenu.style.animation = "slideLeft 0.5s ease forwards";
+        const menuTitle =
+            hasChildren.querySelector(".chevronDown").parentNode.childNodes[0].textContent;
+        menu.querySelector(".current-menu-title").innerHTML = menuTitle;
+        menu.querySelector(".mobile-menu-head").classList.add("active");
+    }
+
+    function hideSubMenu() {
+        subMenu.style.animation = "slideRight 0.5s ease forwards";
+        setTimeout(() => {
+            subMenu.classList.remove("active");
+        }, 300);
+        menu.querySelector(".current-menu-title").innerHTML = "";
+        menu.querySelector(".mobile-menu-head").classList.remove("active");
+    }
+
+    window.onresize = function () {
+        if (this.innerWidth > 991) {
+            if (menu.classList.contains("active")) {
+                toggleMenu();
+            }
+        }
+    };
+
+</script>
+
+<script defer>
+    function updateLogoWidth() {
+        // Select elements
+        const ctaElement = document.querySelector('.item-right');
+        const logoElement = document.querySelector('.item-left');
+
+        // Get the computed width of CTA
+        const ctaWidth = ctaElement.getBoundingClientRect().width;
+    
+
+        // Apply the width to logo element
+        if (ctaWidth > 0) {
+            logoElement.style.width = `${ctaWidth}px`;
+        }
+    }
+
+    // Run on page load with a slight delay to ensure styles are applied
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(updateLogoWidth, 100);
+    });
+
+    // Run whenever window is resized
+    window.addEventListener('resize', updateLogoWidth);
+</script>
+</body>
+
+</html>

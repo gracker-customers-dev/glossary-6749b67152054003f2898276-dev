@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://supertokens.com/sitemap.xml
